@@ -1,0 +1,15 @@
+# Blocked dates — days you can't train (travel, work events, illness, etc.).
+# Updated conversationally: tell me "I'm in Paris May 10-14" and I'll add entries
+# here. After updates, re-run scripts/schedule.py to rebuild schedule.yaml.
+blocked:
+  - { date: 2026-04-25, reason: "busy Saturday" }
+  - { date: 2026-05-08, reason: "in office Fri — no gym access" }
+  - { date: 2026-05-13, reason: "in office Wed — no gym access" }
+  - { date: 2026-06-29, reason: "busy Monday (already rest day)" }
+  - { date: 2026-07-04, reason: "busy Saturday" }
+  - { date: 2026-07-05, reason: "busy Sunday" }
+  - { date: 2026-07-11, reason: "busy Saturday" }
+  - { date: 2026-07-30, reason: "holiday" }
+  - { date: 2026-07-31, reason: "holiday" }
+  - { date: 2026-08-01, reason: "holiday" }
+  - { date: 2026-08-02, reason: "holiday" }

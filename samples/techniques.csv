@@ -1,0 +1,16 @@
+name,description,typical_use,time_multiplier,intensity,rest_sec
+straight_set,Standard sets and reps with fixed rest between each.,Default for compound lifts and strength work.,1.0,moderate,
+superset,Two exercises back-to-back with no rest; rest only after both done.,Paired antagonists or accessories to save time and drive volume.,0.8,high,60
+giant_set,Three or more exercises performed back-to-back with no rest.,Hypertrophy finisher for a muscle group; high time-efficiency.,0.9,high,75
+fst7,Seven sets of one exercise at the end of a muscle group with ~30s rest; targets fascia.,Final exercise on a bodypart to chase a pump (Gethin staple).,1.2,high,30
+drop_set,Take a set to failure then reduce weight and continue to failure.,Last-set intensifier on isolation work.,1.1,high,60
+triple_drop_set,Three continuous drops from heavier to lighter weight in one extended set.,Deep-fatigue finisher; used sparingly.,1.2,extreme,90
+rest_pause,Set to failure; rest 10-20s; continue; optionally repeat.,Hit more reps beyond initial failure with the same weight.,1.1,high,45
+cardio_acceleration,1 minute of high-intensity cardio/conditioning replaces rest between lifting sets.,S2S hallmark; layers fat-loss on top of lifting.,0.9,extreme,0
+dtp,Dramatic Transformation Principle: pyramid of 50/40/30/20/10/10/20/30/40/50 reps (one exercise) or as a paired superset.,High-volume metabolic finisher or whole-workout structure (Gethin late weeks).,1.4,extreme,45
+pyramid,Ascending weight + descending reps (e.g. 15->12->10->8->6) or reverse.,Warm-up-to-work-up progression; strength + hypertrophy blend.,1.1,moderate,90
+21s,7 half-reps bottom + 7 half-reps top + 7 full-range reps in one set.,Biceps / upright-row burnout.,1.0,high,75
+partial_reps,Extend a set past failure by performing half-range reps.,Stock isolations (lateral raises; leg extensions).,1.0,high,60
+negative_reps,Slow eccentric only; usually with spotter help on the concentric.,Overload past concentric failure on final set.,1.2,extreme,90
+one_and_a_half,Full rep + half rep = 1.5 reps counted as 1.,Quad / shoulder burner; lower weight; high tension.,1.1,high,60
+circuit,Rotate through N exercises with minimal rest; rest between rounds.,Conditioning or full-body finisher.,0.85,high,60

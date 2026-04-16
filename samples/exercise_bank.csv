@@ -1,0 +1,173 @@
+name,tier,primary_muscle,secondary_muscle,movement,equipment,compound,unilateral,rep_low,rep_high,complexity,notes
+Bench Press,large,chest,triceps;shoulders_front,push_horizontal,barbell,true,false,4,12,med,primary pressing lift
+Incline Bench Press,large,chest,triceps;shoulders_front,push_horizontal,barbell,true,false,5,12,med,upper-chest bias
+Decline Bench Press,large,chest,triceps,push_horizontal,barbell,true,false,6,12,med,lower-chest bias
+Flat Dumbbell Press,medium,chest,triceps;shoulders_front,push_horizontal,dumbbell,true,false,6,12,med,greater ROM than barbell
+Incline Dumbbell Press,medium,chest,triceps;shoulders_front,push_horizontal,dumbbell,true,false,6,12,med,upper chest
+Decline Dumbbell Press,medium,chest,triceps,push_horizontal,dumbbell,true,false,6,12,med,
+Decline Smith Machine Press,medium,chest,triceps,push_horizontal,smith,true,false,6,12,low,
+Smith Machine Bench Press,medium,chest,triceps,push_horizontal,smith,true,false,6,12,low,
+Machine Chest Press,medium,chest,triceps,push_horizontal,machine,true,false,8,15,low,beginner-friendly
+Flat Machine Press,medium,chest,triceps,push_horizontal,machine,true,false,8,15,low,
+Dips,light,chest,triceps;shoulders_front,push_vertical,bodyweight,true,false,6,20,med,lean forward for chest bias
+Machine Dips,light,chest,triceps,push_vertical,machine,true,false,8,15,low,
+Narrow Push-Up,light,chest,triceps,push_horizontal,bodyweight,true,false,10,25,low,triceps emphasis
+Modified Push-Up,light,chest,triceps,push_horizontal,bodyweight,true,false,10,25,low,
+Close-Grip Bench Press,large,triceps,chest;shoulders_front,push_horizontal,barbell,true,false,6,12,med,triceps-dominant compound
+Smith Close-Grip Bench Press,medium,triceps,chest,push_horizontal,smith,true,false,6,12,low,
+Dumbbell Flye,light,chest,,isolation,dumbbell,false,false,10,15,low,stretch-focused
+Incline Dumbbell Flye,light,chest,,isolation,dumbbell,false,false,10,15,low,
+Cable Crossover,light,chest,,isolation,cable,false,false,10,20,low,peak contraction
+Cable Crossover from Low Pulley,light,chest,,isolation,cable,false,false,10,20,low,incline flye vector
+Incline Cable Flye,light,chest,,isolation,cable,false,false,10,20,low,
+Peck Deck,light,chest,,isolation,machine,false,false,10,20,low,fixed plane
+Straight Arm Pullover,light,chest,lats,isolation,dumbbell,false,false,10,15,med,also trains lats
+Lying Pullover,light,chest,lats,isolation,dumbbell,false,false,10,15,med,
+Barbell Bent-Over Row,large,lats,traps;biceps,pull_horizontal,barbell,true,false,6,12,high,heavy horizontal pull
+Dumbbell Bent-Over Row,medium,lats,traps;biceps,pull_horizontal,dumbbell,true,false,6,12,med,
+One-Arm Dumbbell Row,medium,lats,biceps,pull_horizontal,dumbbell,true,true,8,15,low,unilateral
+Incline Dumbbell Row,medium,lats,biceps,pull_horizontal,dumbbell,true,false,8,15,low,chest supported
+Seated Cable Row,medium,lats,traps;biceps,pull_horizontal,cable,true,false,8,15,low,
+Bent-Over Smith Machine Row,medium,lats,biceps,pull_horizontal,smith,true,false,8,12,med,
+Lat Pulldown,medium,lats,biceps,pull_vertical,cable,true,false,8,15,low,
+Wide-Grip Lat Pulldown,medium,lats,biceps,pull_vertical,cable,true,false,8,15,low,lat width bias
+Reverse-Grip Pulldown,medium,lats,biceps,pull_vertical,cable,true,false,8,15,low,lower-lat bias
+Behind-the-Neck Pulldown,medium,lats,biceps,pull_vertical,cable,true,false,10,15,med,advanced
+Reverse-Grip Hammer Pulldown,medium,lats,biceps,pull_vertical,machine,true,false,8,12,low,
+Straight-Arm Pulldown,light,lats,,isolation,cable,false,false,10,15,low,
+Rope Straight-Arm Pulldown,light,lats,,isolation,cable,false,false,10,15,low,
+Pull-Up,light,lats,biceps,pull_vertical,bodyweight,true,false,5,15,med,
+Chin-Up,light,biceps,lats,pull_vertical,bodyweight,true,false,5,15,med,biceps-dominant
+Close-Grip Pull-Up (Legs Elevated),light,lats,biceps,pull_vertical,bodyweight,true,false,5,15,med,
+Machine Pullover,light,lats,,pull_vertical,machine,true,false,10,15,low,
+Rack Deadlift,large,back,lats;traps;hamstrings;glutes,hinge,barbell,true,false,4,10,high,partial deadlift; back thickness
+Hyperextension,light,hamstrings,glutes,hinge,bodyweight,true,false,10,20,low,lower-back friendly
+Barbell Shrug,light,traps,,isolation,barbell,false,false,8,15,low,
+Dumbbell Shrug,light,traps,,isolation,dumbbell,false,false,8,15,low,
+Smith Machine Shrug,light,traps,,isolation,smith,false,false,8,15,low,
+Smith Behind-the-Back Shrug,light,traps,,isolation,smith,false,false,10,15,med,
+Barbell Shoulder Press,large,shoulders_front,triceps,push_vertical,barbell,true,false,5,12,med,military press
+Seated Military Press,large,shoulders_front,triceps,push_vertical,barbell,true,false,6,12,med,
+Dumbbell Shoulder Press (Seated),medium,shoulders_front,triceps,push_vertical,dumbbell,true,false,6,12,low,
+Alternating DB Shoulder Press (Standing),medium,shoulders_front,triceps,push_vertical,dumbbell,true,false,6,12,med,adds core demand
+Single-Arm DB Shoulder Press,medium,shoulders_front,triceps,push_vertical,dumbbell,true,true,8,12,med,
+Machine Shoulder Press,medium,shoulders_front,triceps,push_vertical,machine,true,false,8,15,low,
+Machine Hammer Press,medium,shoulders_front,triceps,push_vertical,machine,true,false,8,12,low,neutral grip
+Smith Machine Shoulder Press,medium,shoulders_front,triceps,push_vertical,smith,true,false,6,12,low,
+Smith Shoulder Press Behind the Neck,medium,shoulders_front,shoulders_side;triceps,push_vertical,smith,true,false,8,12,med,shoulder-mobility dependent
+Dumbbell Lateral Raise,light,shoulders_side,,isolation,dumbbell,false,false,10,20,low,side-delt staple
+Cable Side Raise,light,shoulders_side,,isolation,cable,false,false,10,20,low,constant tension
+Machine Side Lateral Raise,light,shoulders_side,,isolation,machine,false,false,10,20,low,
+Leaning Dumbbell Raise,light,shoulders_side,,isolation,dumbbell,false,true,10,15,low,one-arm variant
+Barbell Front Raise,light,shoulders_front,,isolation,barbell,false,false,10,15,low,
+Dumbbell Front Raise,light,shoulders_front,,isolation,dumbbell,false,false,10,15,low,
+Cable Front Raise,light,shoulders_front,,isolation,cable,false,false,10,15,low,
+Front Plate Raise,light,shoulders_front,,isolation,mixed,false,false,10,15,low,plate held two-handed
+DB Bent-Over Lateral Raise,light,shoulders_rear,,isolation,dumbbell,false,false,10,20,low,rear-delt
+Rear Delt Raise (Machine),light,shoulders_rear,,isolation,machine,false,false,10,20,low,
+Lying Cable Rear Delt Flye,light,shoulders_rear,,isolation,cable,false,false,12,20,low,
+Smith One-Arm Upright Row,medium,shoulders_side,traps,pull_vertical,smith,true,true,8,12,med,
+Dumbbell Upright Row,medium,shoulders_side,traps,pull_vertical,dumbbell,true,false,8,12,med,
+Barbell Upright Row,medium,shoulders_side,traps,pull_vertical,barbell,true,false,8,12,med,
+Wide-Grip Upright Row,medium,shoulders_rear,traps,pull_vertical,barbell,true,false,10,15,med,rear-delt bias
+Barbell Curl,medium,biceps,,isolation,barbell,false,false,6,12,low,
+EZ-Bar Curl,medium,biceps,,isolation,ez_bar,false,false,8,15,low,wrist-friendly
+EZ-Bar Cable Curl,light,biceps,,isolation,cable,false,false,10,15,low,
+Preacher Curl,medium,biceps,,isolation,ez_bar,false,false,8,15,med,strict form
+Preacher Dumbbell Curl,light,biceps,,isolation,dumbbell,false,false,10,15,low,
+Machine Preacher Curl,light,biceps,,isolation,machine,false,false,10,15,low,
+Reverse-Grip Barbell Curl,medium,forearms,biceps,isolation,barbell,false,false,8,15,low,brachialis/forearms
+Incline Dumbbell Curl,light,biceps,,isolation,dumbbell,false,false,10,15,low,long-head stretch
+Alternating Dumbbell Curl,light,biceps,,isolation,dumbbell,false,true,10,15,low,
+Hammer Curl,light,biceps,forearms,isolation,dumbbell,false,false,10,15,low,brachialis bias
+Hammer Cable Curl,light,biceps,forearms,isolation,cable,false,false,10,15,low,
+High Cable Curl,light,biceps,,isolation,cable,false,false,10,15,low,peak contraction
+Rope Cable Curl,light,biceps,,isolation,cable,false,false,12,20,low,
+Standing Cable Curl,light,biceps,,isolation,cable,false,false,10,15,low,
+Crossover Cable Curl,light,biceps,,isolation,cable,false,false,10,15,low,
+Concentration Curl,light,biceps,,isolation,dumbbell,false,true,10,15,low,peak bias
+Spider Curl,light,biceps,,isolation,ez_bar,false,false,10,15,low,short-head bias
+Lying Biceps Curl,light,biceps,,isolation,dumbbell,false,false,10,20,low,
+Seated Barbell Curl,medium,biceps,,isolation,barbell,false,false,8,12,low,no momentum
+Triceps Pressdown,light,triceps,,isolation,cable,false,false,10,15,low,
+Rope Triceps Pressdown,light,triceps,,isolation,cable,false,false,12,20,low,spread rope at bottom
+V-Handle Cable Extension,light,triceps,,isolation,cable,false,false,10,15,low,
+Overhead Dumbbell Extension,light,triceps,,isolation,dumbbell,false,false,10,15,low,long-head stretch
+Overhead Cable Triceps Extension,light,triceps,,isolation,cable,false,false,10,15,low,
+Overhead Rope Triceps Extension,light,triceps,,isolation,cable,false,false,12,15,low,
+Cable Lying Triceps Extension,light,triceps,,isolation,cable,false,false,10,15,low,
+Lying Triceps Extension (Skull Crusher),medium,triceps,,isolation,ez_bar,false,false,8,12,med,
+Lying Dumbbell Extension,light,triceps,,isolation,dumbbell,false,false,10,15,low,
+Head Smacker,medium,triceps,,isolation,ez_bar,false,false,8,12,med,skullcrusher variant
+Rocker,light,triceps,,isolation,dumbbell,false,false,8,12,med,
+Reverse Cable Pushdown,light,triceps,,isolation,cable,false,false,10,15,low,underhand grip
+Bench Dips,light,triceps,,push_vertical,bodyweight,true,false,10,20,low,triceps emphasis
+Barbell Wrist Curl,light,forearms,,isolation,barbell,false,false,10,20,low,
+Dumbbell Reverse Wrist Curl,light,forearms,,isolation,dumbbell,false,false,10,20,low,extensor work
+Behind-the-Back Wrist Curl,light,forearms,,isolation,barbell,false,false,10,20,low,
+Back Squat,large,quads,glutes;hamstrings,squat,barbell,true,false,3,15,high,king of leg movements
+Front Squat,large,quads,,squat,barbell,true,false,5,10,high,core-demanding
+Box Squat,large,quads,glutes;hamstrings,squat,barbell,true,false,6,10,med,back-friendly
+Rack Squat,large,quads,glutes,squat,barbell,true,false,6,10,med,partial ROM
+Hack Squat,medium,quads,glutes,squat,machine,true,false,8,15,low,fixed-path
+Leg Press,medium,quads,glutes;hamstrings,squat,machine,true,false,8,30,low,
+Unilateral Leg Extension,light,quads,,isolation,machine,false,true,10,20,low,
+Leg Extension,light,quads,,isolation,machine,false,false,10,30,low,
+Walking Lunge,medium,quads,glutes;hamstrings,lunge,dumbbell,true,false,10,20,med,steps per leg
+Standing Lunge,medium,quads,glutes,lunge,dumbbell,true,false,8,12,med,
+DB Step-Up,medium,quads,glutes,lunge,dumbbell,true,true,8,15,low,
+BB Step-Up,medium,quads,glutes,lunge,barbell,true,true,6,10,med,
+Conventional Deadlift,large,back,lats;traps;hamstrings;glutes,hinge,barbell,true,false,3,10,high,heavy full-body pull
+Romanian Deadlift,large,hamstrings,glutes;lats,hinge,barbell,true,false,6,15,high,hip-hinge pattern
+Stiff-Legged Deadlift,large,hamstrings,glutes,hinge,barbell,true,false,8,15,med,
+Stiff-Legged DB Deadlift,medium,hamstrings,glutes,hinge,dumbbell,true,false,8,15,med,
+Machine Stiff-Leg Deadlift,medium,hamstrings,glutes,hinge,machine,true,false,10,15,low,
+Lying Leg Curl,light,hamstrings,,isolation,machine,false,false,10,20,low,
+Seated Leg Curl,light,hamstrings,,isolation,machine,false,false,10,20,low,
+Standing Hamstring Curl,light,hamstrings,,isolation,machine,false,true,10,20,low,
+Single Leg Hamstring Curl,light,hamstrings,,isolation,machine,false,true,10,15,low,
+Smith Machine Hip Thrust,medium,glutes,hamstrings,hinge,smith,true,false,8,15,med,
+Barbell Hip Thrust,medium,glutes,hamstrings,hinge,barbell,true,false,6,15,med,
+Standing Calf Raise,light,calves,,isolation,machine,false,false,10,30,low,
+Seated Calf Raise,light,calves,,isolation,machine,false,false,10,30,low,soleus-biased
+Donkey Calf Raise,light,calves,,isolation,machine,false,false,10,30,low,stretch-focused
+Leg Press Calf Raise,light,calves,,isolation,machine,false,false,10,30,low,
+45-Degree Calf Press,light,calves,,isolation,machine,false,false,10,20,low,
+Crunch,light,abs,,core,bodyweight,false,false,15,30,low,
+Cable Crunch,light,abs,,core,cable,false,false,12,20,low,loaded ab work
+Smith Machine Crunch,light,abs,,core,smith,false,false,10,15,low,
+Weighted Sit-Up,light,abs,,core,bodyweight,false,false,10,20,low,plate held on chest
+Sit-Up,light,abs,hip_flexors,core,bodyweight,false,false,15,30,low,
+Incline Sit-Up,light,abs,,core,bodyweight,false,false,10,20,low,
+Incline Crunch,light,abs,,core,bodyweight,false,false,12,20,low,
+Incline Reverse Crunch,light,abs,,core,bodyweight,false,false,10,15,low,lower-abs bias
+Hanging Leg Raise,light,abs,hip_flexors,core,bodyweight,false,false,8,20,med,
+Incline Leg Raise,light,abs,hip_flexors,core,bodyweight,false,false,10,20,low,
+Crossover Crunch,light,obliques,,core,bodyweight,false,false,12,20,low,
+Standing Oblique Cable Crunch,light,obliques,,core,cable,false,false,12,20,low,
+Cable Woodchopper,light,obliques,,core,cable,false,false,10,15,low,rotational
+Standing Twist,light,obliques,,core,bodyweight,false,false,50,150,low,high-rep oblique finisher
+Kettlebell Swing,medium,full_body,glutes;hamstrings,hinge,kettlebell,true,false,15,25,med,conditioning / power
+Goblet Squat,medium,quads,glutes;full_body,squat,dumbbell,true,false,10,20,low,warm-up or finisher
+Squat Jump,power,quads,full_body,squat,bodyweight,true,false,10,20,low,plyometric
+Box Jump,power,quads,full_body,squat,bodyweight,true,false,5,15,med,plyo
+Sprint,conditioning,full_body,,cardio,bodyweight,true,false,0,0,med,time-based intervals
+Running in Place,conditioning,full_body,,cardio,bodyweight,true,false,0,0,low,minimal-space filler
+Medicine Ball Slam,power,full_body,abs,cardio,mixed,true,false,10,20,low,power + conditioning
+Dumbbell Lunge Jump,power,quads,full_body,lunge,dumbbell,true,false,10,20,med,plyo lunge
+Lunge Jumps,power,quads,full_body,lunge,bodyweight,true,false,10,20,low,
+Side-to-Side Box Shuffle,conditioning,full_body,,cardio,bodyweight,true,false,15,30,low,lateral agility
+Sledgehammer Swing,conditioning,full_body,,cardio,mixed,true,false,10,20,med,tire + hammer
+Battling Ropes,conditioning,full_body,,cardio,mixed,true,false,0,0,low,time-based
+Rocket Jump,power,full_body,,cardio,bodyweight,true,false,10,15,low,
+Lateral Bound,power,full_body,,cardio,bodyweight,true,false,10,15,low,
+Mountain Climber,conditioning,abs,full_body,core,bodyweight,false,false,0,0,low,time-based
+Jump Rope,conditioning,full_body,,cardio,bodyweight,true,false,0,0,low,time-based
+Tire Flip,power,full_body,,cardio,mixed,true,false,5,10,high,power
+DB Clean,power,full_body,,hinge,dumbbell,true,false,5,10,high,explosive full-body
+Smith Machine Clean,power,full_body,,hinge,smith,true,false,5,10,high,
+Step-up with Knee Raise,medium,quads,,lunge,bodyweight,true,true,10,20,low,
+Treadmill,conditioning,full_body,,cardio,machine,true,false,0,0,low,time-based
+Stationary Bike,conditioning,full_body,,cardio,machine,true,false,0,0,low,time-based
+Elliptical,conditioning,full_body,,cardio,machine,true,false,0,0,low,time-based
+Swimming,conditioning,full_body,,cardio,mixed,true,false,0,0,low,low-impact

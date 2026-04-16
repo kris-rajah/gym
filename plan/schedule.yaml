@@ -1,0 +1,7150 @@
+- date: '2026-04-21'
+  day: tuesday
+  type: training
+  session: push_1
+  load: 1
+  minutes: 45
+  location: office
+  exercises:
+  - exercise: Medicine Ball Slam
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: mixed
+    notes: "power + conditioning \u2014 done fresh, CNS primer"
+  - exercise: Bench Press
+    tier: large
+    primary_muscle: chest
+    warmup_sets: 2
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: barbell
+    notes: primary pressing lift
+  - exercise: Lying Triceps Extension (Skull Crusher)
+    tier: medium
+    primary_muscle: triceps
+    warmup_sets: 1
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: ez_bar
+    notes: ''
+  - exercise: Cable Crossover from Low Pulley
+    tier: light
+    primary_muscle: chest
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: cable
+    notes: incline flye vector
+  - exercise: Overhead Rope Triceps Extension
+    tier: light
+    primary_muscle: triceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Cable Side Raise
+    tier: light
+    primary_muscle: shoulders_side
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: cable
+    notes: constant tension
+  - exercise: Front Plate Raise
+    tier: light
+    primary_muscle: shoulders_front
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: mixed
+    notes: plate held two-handed
+- date: '2026-04-22'
+  day: wednesday
+  type: training
+  session: pull_1
+  load: 1
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Smith Machine Clean
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: smith
+    notes: " \u2014 done fresh, CNS primer"
+  - exercise: Rack Deadlift
+    tier: large
+    primary_muscle: back
+    warmup_sets: 2
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: barbell
+    notes: partial deadlift; back thickness
+  - exercise: Lat Pulldown
+    tier: medium
+    primary_muscle: lats
+    warmup_sets: 1
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Behind-the-Neck Pulldown
+    tier: medium
+    primary_muscle: lats
+    warmup_sets: 1
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: cable
+    notes: advanced
+  - exercise: Seated Barbell Curl
+    tier: medium
+    primary_muscle: biceps
+    warmup_sets: 1
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: barbell
+    notes: no momentum
+  - exercise: Rope Straight-Arm Pulldown
+    tier: light
+    primary_muscle: lats
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Alternating Dumbbell Curl
+    tier: light
+    primary_muscle: biceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: dumbbell
+    notes: ''
+  - exercise: Hammer Curl
+    tier: light
+    primary_muscle: biceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: dumbbell
+    notes: brachialis bias
+  - exercise: Smith Machine Shrug
+    tier: light
+    primary_muscle: traps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: smith
+    notes: ''
+- date: '2026-04-23'
+  day: thursday
+  type: rest
+  reason: weekly rest
+- date: '2026-04-24'
+  day: friday
+  type: training
+  session: legs_1
+  load: 1
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Lunge Jumps
+    tier: power
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: bodyweight
+    notes: " \u2014 done fresh, CNS primer"
+  - exercise: Back Squat
+    tier: large
+    primary_muscle: quads
+    warmup_sets: 2
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: barbell
+    notes: king of leg movements
+  - exercise: DB Step-Up
+    tier: medium
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: dumbbell
+    notes: ''
+  - exercise: Step-up with Knee Raise
+    tier: medium
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Leg Extension
+    tier: light
+    primary_muscle: quads
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Standing Hamstring Curl
+    tier: light
+    primary_muscle: hamstrings
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Donkey Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: stretch-focused
+  - exercise: Seated Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: soleus-biased
+- date: '2026-04-25'
+  day: saturday
+  type: blocked
+  reason: busy Saturday
+- date: '2026-04-26'
+  day: sunday
+  type: training
+  session: conditioning
+  load: 1
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Medicine Ball Slam
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: mixed
+    notes: "power + conditioning \u2014 done fresh, CNS primer"
+  - exercise: Cable Crunch
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: cable
+    notes: loaded ab work
+  - exercise: Incline Leg Raise
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Incline Crunch
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Cable Woodchopper
+    tier: light
+    primary_muscle: obliques
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: cable
+    notes: rotational
+  - exercise: Crossover Crunch
+    tier: light
+    primary_muscle: obliques
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Sledgehammer Swing
+    tier: conditioning
+    primary_muscle: full_body
+    warmup_sets: 0
+    working_sets: 1
+    reps: 5-10 min or 4 x 30s on / 30s off
+    rest_sec: 30
+    weight_kg: null
+    equipment: mixed
+    notes: tire + hammer
+  cardio_tail: 20 min steady state (Stationary Bike)
+- date: '2026-04-27'
+  day: monday
+  type: rest
+  reason: weekly rest
+- date: '2026-04-28'
+  day: tuesday
+  type: training
+  session: push_2
+  load: 2
+  minutes: 45
+  location: office
+  exercises:
+  - exercise: Rocket Jump
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: bodyweight
+    notes: " \u2014 done fresh, CNS primer"
+  - exercise: Bench Press
+    tier: large
+    primary_muscle: chest
+    warmup_sets: 2
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: barbell
+    notes: primary pressing lift
+  - exercise: Barbell Shoulder Press
+    tier: large
+    primary_muscle: shoulders_front
+    warmup_sets: 2
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: barbell
+    notes: military press
+  - exercise: Dumbbell Upright Row
+    tier: medium
+    primary_muscle: shoulders_side
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: dumbbell
+    notes: ''
+  - exercise: Straight Arm Pullover
+    tier: light
+    primary_muscle: chest
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: dumbbell
+    notes: also trains lats
+  - exercise: Dumbbell Front Raise
+    tier: light
+    primary_muscle: shoulders_front
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: dumbbell
+    notes: ''
+  - exercise: Triceps Pressdown
+    tier: light
+    primary_muscle: triceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: ''
+- date: '2026-04-29'
+  day: wednesday
+  type: training
+  session: pull_2
+  load: 2
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Smith Machine Clean
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: smith
+    notes: " \u2014 done fresh, CNS primer"
+  - exercise: Wide-Grip Lat Pulldown
+    tier: medium
+    primary_muscle: lats
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: cable
+    notes: lat width bias
+  - exercise: Seated Cable Row
+    tier: medium
+    primary_muscle: lats
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Seated Barbell Curl
+    tier: medium
+    primary_muscle: biceps
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: barbell
+    notes: no momentum
+  - exercise: Close-Grip Pull-Up (Legs Elevated)
+    tier: light
+    primary_muscle: lats
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Straight-Arm Pulldown
+    tier: light
+    primary_muscle: lats
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Chin-Up
+    tier: light
+    primary_muscle: biceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: biceps-dominant
+  - exercise: Concentration Curl
+    tier: light
+    primary_muscle: biceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: dumbbell
+    notes: peak bias
+  - exercise: Barbell Shrug
+    tier: light
+    primary_muscle: traps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+- date: '2026-04-30'
+  day: thursday
+  type: rest
+  reason: weekly rest
+- date: '2026-05-01'
+  day: friday
+  type: training
+  session: legs_1
+  load: 2
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Dumbbell Lunge Jump
+    tier: power
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: dumbbell
+    notes: "plyo lunge \u2014 done fresh, CNS primer"
+  - exercise: Back Squat
+    tier: large
+    primary_muscle: quads
+    warmup_sets: 2
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: barbell
+    notes: king of leg movements
+  - exercise: Step-up with Knee Raise
+    tier: medium
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Leg Press
+    tier: medium
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Leg Extension
+    tier: light
+    primary_muscle: quads
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Hyperextension
+    tier: light
+    primary_muscle: hamstrings
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: lower-back friendly
+  - exercise: Standing Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Seated Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: soleus-biased
+- date: '2026-05-02'
+  day: saturday
+  type: training
+  session: legs_2
+  load: 2
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Lunge Jumps
+    tier: power
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: bodyweight
+    notes: " \u2014 done fresh, CNS primer"
+  - exercise: Romanian Deadlift
+    tier: large
+    primary_muscle: hamstrings
+    warmup_sets: 2
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: barbell
+    notes: hip-hinge pattern
+  - exercise: Stiff-Legged DB Deadlift
+    tier: medium
+    primary_muscle: hamstrings
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: dumbbell
+    notes: ''
+  - exercise: Barbell Hip Thrust
+    tier: medium
+    primary_muscle: glutes
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+  - exercise: Single Leg Hamstring Curl
+    tier: light
+    primary_muscle: hamstrings
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: 45-Degree Calf Press
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Donkey Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: stretch-focused
+  - exercise: Leg Extension
+    tier: light
+    primary_muscle: quads
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+- date: '2026-05-03'
+  day: sunday
+  type: training
+  session: conditioning
+  load: 2
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Medicine Ball Slam
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: mixed
+    notes: "power + conditioning \u2014 done fresh, CNS primer"
+  - exercise: Incline Crunch
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Incline Leg Raise
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Crunch
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Crossover Crunch
+    tier: light
+    primary_muscle: obliques
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Standing Oblique Cable Crunch
+    tier: light
+    primary_muscle: obliques
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Treadmill
+    tier: conditioning
+    primary_muscle: full_body
+    warmup_sets: 0
+    working_sets: 1
+    reps: 5-10 min or 4 x 30s on / 30s off
+    rest_sec: 30
+    weight_kg: null
+    equipment: machine
+    notes: time-based
+  cardio_tail: 20 min steady state (Stationary Bike)
+- date: '2026-05-04'
+  day: monday
+  type: rest
+  reason: weekly rest
+- date: '2026-05-05'
+  day: tuesday
+  type: training
+  session: push_1
+  load: 3
+  minutes: 45
+  location: office
+  exercises:
+  - exercise: DB Clean
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: dumbbell
+    notes: "explosive full-body \u2014 done fresh, CNS primer"
+  - exercise: Bench Press
+    tier: large
+    primary_muscle: chest
+    warmup_sets: 2
+    working_sets: 3
+    reps: 6-8
+    rest_sec: 120
+    weight_kg: null
+    equipment: barbell
+    notes: primary pressing lift
+  - exercise: Lying Triceps Extension (Skull Crusher)
+    tier: medium
+    primary_muscle: triceps
+    warmup_sets: 1
+    working_sets: 3
+    reps: 6-8
+    rest_sec: 120
+    weight_kg: null
+    equipment: ez_bar
+    notes: ''
+  - exercise: Dumbbell Flye
+    tier: light
+    primary_muscle: chest
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: dumbbell
+    notes: stretch-focused
+  - exercise: Overhead Dumbbell Extension
+    tier: light
+    primary_muscle: triceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: dumbbell
+    notes: long-head stretch
+  - exercise: Dumbbell Lateral Raise
+    tier: light
+    primary_muscle: shoulders_side
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: dumbbell
+    notes: side-delt staple
+  - exercise: Front Plate Raise
+    tier: light
+    primary_muscle: shoulders_front
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: mixed
+    notes: plate held two-handed
+- date: '2026-05-06'
+  day: wednesday
+  type: training
+  session: pull_1
+  load: 3
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Rocket Jump
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: bodyweight
+    notes: " \u2014 done fresh, CNS primer"
+  - exercise: Conventional Deadlift
+    tier: large
+    primary_muscle: back
+    warmup_sets: 2
+    working_sets: 3
+    reps: 6-8
+    rest_sec: 120
+    weight_kg: null
+    equipment: barbell
+    notes: heavy full-body pull
+  - exercise: Reverse-Grip Pulldown
+    tier: medium
+    primary_muscle: lats
+    warmup_sets: 1
+    working_sets: 3
+    reps: 6-8
+    rest_sec: 120
+    weight_kg: null
+    equipment: cable
+    notes: lower-lat bias
+  - exercise: One-Arm Dumbbell Row
+    tier: medium
+    primary_muscle: lats
+    warmup_sets: 1
+    working_sets: 3
+    reps: 6-8
+    rest_sec: 120
+    weight_kg: null
+    equipment: dumbbell
+    notes: unilateral
+  - exercise: Barbell Curl
+    tier: medium
+    primary_muscle: biceps
+    warmup_sets: 1
+    working_sets: 3
+    reps: 6-8
+    rest_sec: 120
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+  - exercise: Rope Straight-Arm Pulldown
+    tier: light
+    primary_muscle: lats
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Hammer Curl
+    tier: light
+    primary_muscle: biceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: dumbbell
+    notes: brachialis bias
+  - exercise: High Cable Curl
+    tier: light
+    primary_muscle: biceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: peak contraction
+  - exercise: Dumbbell Shrug
+    tier: light
+    primary_muscle: traps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: dumbbell
+    notes: ''
+- date: '2026-05-07'
+  day: thursday
+  type: rest
+  reason: weekly rest
+- date: '2026-05-08'
+  day: friday
+  type: blocked
+  reason: "in office Fri \u2014 no gym access"
+- date: '2026-05-09'
+  day: saturday
+  type: training
+  session: legs_2
+  load: 3
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Box Jump
+    tier: power
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: bodyweight
+    notes: "plyo \u2014 done fresh, CNS primer"
+  - exercise: Stiff-Legged Deadlift
+    tier: large
+    primary_muscle: hamstrings
+    warmup_sets: 2
+    working_sets: 3
+    reps: 6-8
+    rest_sec: 120
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+  - exercise: Machine Stiff-Leg Deadlift
+    tier: medium
+    primary_muscle: hamstrings
+    warmup_sets: 1
+    working_sets: 3
+    reps: 6-8
+    rest_sec: 120
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Smith Machine Hip Thrust
+    tier: medium
+    primary_muscle: glutes
+    warmup_sets: 1
+    working_sets: 3
+    reps: 6-8
+    rest_sec: 120
+    weight_kg: null
+    equipment: smith
+    notes: ''
+  - exercise: Standing Hamstring Curl
+    tier: light
+    primary_muscle: hamstrings
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Standing Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Seated Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: soleus-biased
+  - exercise: Unilateral Leg Extension
+    tier: light
+    primary_muscle: quads
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+- date: '2026-05-10'
+  day: sunday
+  type: training
+  session: conditioning
+  load: 3
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Medicine Ball Slam
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: mixed
+    notes: "power + conditioning \u2014 done fresh, CNS primer"
+  - exercise: Incline Leg Raise
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Weighted Sit-Up
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: plate held on chest
+  - exercise: Incline Crunch
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Crossover Crunch
+    tier: light
+    primary_muscle: obliques
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Standing Oblique Cable Crunch
+    tier: light
+    primary_muscle: obliques
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Sprint
+    tier: conditioning
+    primary_muscle: full_body
+    warmup_sets: 0
+    working_sets: 1
+    reps: 5-10 min or 4 x 30s on / 30s off
+    rest_sec: 30
+    weight_kg: null
+    equipment: bodyweight
+    notes: time-based intervals
+  cardio_tail: 20 min steady state (Treadmill)
+- date: '2026-05-11'
+  day: monday
+  type: rest
+  reason: weekly rest
+- date: '2026-05-12'
+  day: tuesday
+  type: training
+  session: push_2
+  load: 4
+  minutes: 45
+  location: office
+  exercises:
+  - exercise: Lateral Bound
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: bodyweight
+    notes: " \u2014 done fresh, CNS primer"
+  - exercise: Bench Press
+    tier: large
+    primary_muscle: chest
+    warmup_sets: 2
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: barbell
+    notes: primary pressing lift
+  - exercise: Seated Military Press
+    tier: large
+    primary_muscle: shoulders_front
+    warmup_sets: 2
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+  - exercise: Smith One-Arm Upright Row
+    tier: medium
+    primary_muscle: shoulders_side
+    warmup_sets: 1
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: smith
+    notes: ''
+  - exercise: Machine Dips
+    tier: light
+    primary_muscle: chest
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Dumbbell Front Raise
+    tier: light
+    primary_muscle: shoulders_front
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: dumbbell
+    notes: ''
+  - exercise: Reverse Cable Pushdown
+    tier: light
+    primary_muscle: triceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: underhand grip
+- date: '2026-05-13'
+  day: wednesday
+  type: blocked
+  reason: "in office Wed \u2014 no gym access"
+- date: '2026-05-14'
+  day: thursday
+  type: rest
+  reason: weekly rest
+- date: '2026-05-15'
+  day: friday
+  type: training
+  session: legs_1
+  load: 4
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Lunge Jumps
+    tier: power
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: bodyweight
+    notes: " \u2014 done fresh, CNS primer"
+  - exercise: Back Squat
+    tier: large
+    primary_muscle: quads
+    warmup_sets: 2
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: barbell
+    notes: king of leg movements
+  - exercise: BB Step-Up
+    tier: medium
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+  - exercise: Step-up with Knee Raise
+    tier: medium
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Unilateral Leg Extension
+    tier: light
+    primary_muscle: quads
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Hyperextension
+    tier: light
+    primary_muscle: hamstrings
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: lower-back friendly
+  - exercise: Donkey Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: stretch-focused
+  - exercise: 45-Degree Calf Press
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+- date: '2026-05-16'
+  day: saturday
+  type: training
+  session: legs_2
+  load: 4
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Dumbbell Lunge Jump
+    tier: power
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: dumbbell
+    notes: "plyo lunge \u2014 done fresh, CNS primer"
+  - exercise: Stiff-Legged Deadlift
+    tier: large
+    primary_muscle: hamstrings
+    warmup_sets: 2
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+  - exercise: Machine Stiff-Leg Deadlift
+    tier: medium
+    primary_muscle: hamstrings
+    warmup_sets: 1
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Barbell Hip Thrust
+    tier: medium
+    primary_muscle: glutes
+    warmup_sets: 1
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+  - exercise: Lying Leg Curl
+    tier: light
+    primary_muscle: hamstrings
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Standing Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: 45-Degree Calf Press
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Leg Extension
+    tier: light
+    primary_muscle: quads
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+- date: '2026-05-17'
+  day: sunday
+  type: training
+  session: conditioning
+  load: 4
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Medicine Ball Slam
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: mixed
+    notes: "power + conditioning \u2014 done fresh, CNS primer"
+  - exercise: Incline Reverse Crunch
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: lower-abs bias
+  - exercise: Smith Machine Crunch
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: smith
+    notes: ''
+  - exercise: Incline Leg Raise
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Cable Woodchopper
+    tier: light
+    primary_muscle: obliques
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: rotational
+  - exercise: Standing Twist
+    tier: light
+    primary_muscle: obliques
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: high-rep oblique finisher
+  - exercise: Sprint
+    tier: conditioning
+    primary_muscle: full_body
+    warmup_sets: 0
+    working_sets: 1
+    reps: 5-10 min or 4 x 30s on / 30s off
+    rest_sec: 30
+    weight_kg: null
+    equipment: bodyweight
+    notes: time-based intervals
+  cardio_tail: 20 min steady state (Treadmill)
+- date: '2026-05-18'
+  day: monday
+  type: rest
+  reason: weekly rest
+- date: '2026-05-19'
+  day: tuesday
+  type: training
+  session: push_1
+  load: 1
+  minutes: 45
+  location: office
+  exercises:
+  - exercise: Smith Machine Clean
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: smith
+    notes: " \u2014 done fresh, CNS primer"
+  - exercise: Bench Press
+    tier: large
+    primary_muscle: chest
+    warmup_sets: 2
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: barbell
+    notes: primary pressing lift
+  - exercise: Smith Close-Grip Bench Press
+    tier: medium
+    primary_muscle: triceps
+    warmup_sets: 1
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: smith
+    notes: ''
+  - exercise: Narrow Push-Up
+    tier: light
+    primary_muscle: chest
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: bodyweight
+    notes: triceps emphasis
+  - exercise: Bench Dips
+    tier: light
+    primary_muscle: triceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: bodyweight
+    notes: triceps emphasis
+  - exercise: Machine Side Lateral Raise
+    tier: light
+    primary_muscle: shoulders_side
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Front Plate Raise
+    tier: light
+    primary_muscle: shoulders_front
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: mixed
+    notes: plate held two-handed
+- date: '2026-05-20'
+  day: wednesday
+  type: training
+  session: pull_2
+  load: 1
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Smith Machine Clean
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: smith
+    notes: " \u2014 done fresh, CNS primer"
+  - exercise: Behind-the-Neck Pulldown
+    tier: medium
+    primary_muscle: lats
+    warmup_sets: 1
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: cable
+    notes: advanced
+  - exercise: Reverse-Grip Hammer Pulldown
+    tier: medium
+    primary_muscle: lats
+    warmup_sets: 1
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: EZ-Bar Curl
+    tier: medium
+    primary_muscle: biceps
+    warmup_sets: 1
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: ez_bar
+    notes: wrist-friendly
+  - exercise: Rope Straight-Arm Pulldown
+    tier: light
+    primary_muscle: lats
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Machine Pullover
+    tier: light
+    primary_muscle: lats
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Chin-Up
+    tier: light
+    primary_muscle: biceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: bodyweight
+    notes: biceps-dominant
+  - exercise: EZ-Bar Cable Curl
+    tier: light
+    primary_muscle: biceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Dumbbell Shrug
+    tier: light
+    primary_muscle: traps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: dumbbell
+    notes: ''
+- date: '2026-05-21'
+  day: thursday
+  type: rest
+  reason: weekly rest
+- date: '2026-05-22'
+  day: friday
+  type: training
+  session: legs_1
+  load: 1
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Lunge Jumps
+    tier: power
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: bodyweight
+    notes: " \u2014 done fresh, CNS primer"
+  - exercise: Back Squat
+    tier: large
+    primary_muscle: quads
+    warmup_sets: 2
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: barbell
+    notes: king of leg movements
+  - exercise: Leg Press
+    tier: medium
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Step-up with Knee Raise
+    tier: medium
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Unilateral Leg Extension
+    tier: light
+    primary_muscle: quads
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Standing Hamstring Curl
+    tier: light
+    primary_muscle: hamstrings
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Standing Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Leg Press Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: ''
+- date: '2026-05-23'
+  day: saturday
+  type: training
+  session: legs_2
+  load: 1
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Box Jump
+    tier: power
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: bodyweight
+    notes: "plyo \u2014 done fresh, CNS primer"
+  - exercise: Stiff-Legged Deadlift
+    tier: large
+    primary_muscle: hamstrings
+    warmup_sets: 2
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+  - exercise: Stiff-Legged DB Deadlift
+    tier: medium
+    primary_muscle: hamstrings
+    warmup_sets: 1
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: dumbbell
+    notes: ''
+  - exercise: Barbell Hip Thrust
+    tier: medium
+    primary_muscle: glutes
+    warmup_sets: 1
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+  - exercise: Seated Leg Curl
+    tier: light
+    primary_muscle: hamstrings
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: 45-Degree Calf Press
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Seated Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: soleus-biased
+  - exercise: Unilateral Leg Extension
+    tier: light
+    primary_muscle: quads
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: ''
+- date: '2026-05-24'
+  day: sunday
+  type: training
+  session: conditioning
+  load: 1
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Medicine Ball Slam
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: mixed
+    notes: "power + conditioning \u2014 done fresh, CNS primer"
+  - exercise: Weighted Sit-Up
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: bodyweight
+    notes: plate held on chest
+  - exercise: Smith Machine Crunch
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: smith
+    notes: ''
+  - exercise: Incline Reverse Crunch
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: bodyweight
+    notes: lower-abs bias
+  - exercise: Standing Oblique Cable Crunch
+    tier: light
+    primary_muscle: obliques
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Crossover Crunch
+    tier: light
+    primary_muscle: obliques
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Running in Place
+    tier: conditioning
+    primary_muscle: full_body
+    warmup_sets: 0
+    working_sets: 1
+    reps: 5-10 min or 4 x 30s on / 30s off
+    rest_sec: 30
+    weight_kg: null
+    equipment: bodyweight
+    notes: minimal-space filler
+  cardio_tail: 20 min steady state (Treadmill)
+- date: '2026-05-25'
+  day: monday
+  type: rest
+  reason: weekly rest
+- date: '2026-05-26'
+  day: tuesday
+  type: training
+  session: push_2
+  load: 2
+  minutes: 45
+  location: office
+  exercises:
+  - exercise: Rocket Jump
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: bodyweight
+    notes: " \u2014 done fresh, CNS primer"
+  - exercise: Bench Press
+    tier: large
+    primary_muscle: chest
+    warmup_sets: 2
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: barbell
+    notes: primary pressing lift
+  - exercise: Barbell Shoulder Press
+    tier: large
+    primary_muscle: shoulders_front
+    warmup_sets: 2
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: barbell
+    notes: military press
+  - exercise: Smith One-Arm Upright Row
+    tier: medium
+    primary_muscle: shoulders_side
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: smith
+    notes: ''
+  - exercise: Modified Push-Up
+    tier: light
+    primary_muscle: chest
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Front Plate Raise
+    tier: light
+    primary_muscle: shoulders_front
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: mixed
+    notes: plate held two-handed
+  - exercise: V-Handle Cable Extension
+    tier: light
+    primary_muscle: triceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: ''
+- date: '2026-05-27'
+  day: wednesday
+  type: training
+  session: pull_1
+  load: 2
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Lateral Bound
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: bodyweight
+    notes: " \u2014 done fresh, CNS primer"
+  - exercise: Conventional Deadlift
+    tier: large
+    primary_muscle: back
+    warmup_sets: 2
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: barbell
+    notes: heavy full-body pull
+  - exercise: Lat Pulldown
+    tier: medium
+    primary_muscle: lats
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Seated Cable Row
+    tier: medium
+    primary_muscle: lats
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Preacher Curl
+    tier: medium
+    primary_muscle: biceps
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: ez_bar
+    notes: strict form
+  - exercise: Pull-Up
+    tier: light
+    primary_muscle: lats
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Crossover Cable Curl
+    tier: light
+    primary_muscle: biceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Machine Preacher Curl
+    tier: light
+    primary_muscle: biceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Smith Behind-the-Back Shrug
+    tier: light
+    primary_muscle: traps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: smith
+    notes: ''
+- date: '2026-05-28'
+  day: thursday
+  type: rest
+  reason: weekly rest
+- date: '2026-05-29'
+  day: friday
+  type: training
+  session: legs_1
+  load: 2
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Lunge Jumps
+    tier: power
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: bodyweight
+    notes: " \u2014 done fresh, CNS primer"
+  - exercise: Back Squat
+    tier: large
+    primary_muscle: quads
+    warmup_sets: 2
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: barbell
+    notes: king of leg movements
+  - exercise: Walking Lunge
+    tier: medium
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: dumbbell
+    notes: steps per leg
+  - exercise: BB Step-Up
+    tier: medium
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+  - exercise: Leg Extension
+    tier: light
+    primary_muscle: quads
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Standing Hamstring Curl
+    tier: light
+    primary_muscle: hamstrings
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: 45-Degree Calf Press
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Seated Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: soleus-biased
+- date: '2026-05-30'
+  day: saturday
+  type: training
+  session: legs_2
+  load: 2
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Dumbbell Lunge Jump
+    tier: power
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: dumbbell
+    notes: "plyo lunge \u2014 done fresh, CNS primer"
+  - exercise: Stiff-Legged Deadlift
+    tier: large
+    primary_muscle: hamstrings
+    warmup_sets: 2
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+  - exercise: Machine Stiff-Leg Deadlift
+    tier: medium
+    primary_muscle: hamstrings
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Barbell Hip Thrust
+    tier: medium
+    primary_muscle: glutes
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+  - exercise: Standing Hamstring Curl
+    tier: light
+    primary_muscle: hamstrings
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Standing Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Seated Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: soleus-biased
+  - exercise: Unilateral Leg Extension
+    tier: light
+    primary_muscle: quads
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+- date: '2026-05-31'
+  day: sunday
+  type: training
+  session: conditioning
+  load: 2
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Medicine Ball Slam
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: mixed
+    notes: "power + conditioning \u2014 done fresh, CNS primer"
+  - exercise: Sit-Up
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Cable Crunch
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: loaded ab work
+  - exercise: Incline Sit-Up
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Crossover Crunch
+    tier: light
+    primary_muscle: obliques
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Standing Twist
+    tier: light
+    primary_muscle: obliques
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: high-rep oblique finisher
+  - exercise: Stationary Bike
+    tier: conditioning
+    primary_muscle: full_body
+    warmup_sets: 0
+    working_sets: 1
+    reps: 5-10 min or 4 x 30s on / 30s off
+    rest_sec: 30
+    weight_kg: null
+    equipment: machine
+    notes: time-based
+  cardio_tail: 20 min steady state (Treadmill)
+- date: '2026-06-01'
+  day: monday
+  type: rest
+  reason: weekly rest
+- date: '2026-06-02'
+  day: tuesday
+  type: training
+  session: push_1
+  load: 3
+  minutes: 45
+  location: office
+  exercises:
+  - exercise: Medicine Ball Slam
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: mixed
+    notes: "power + conditioning \u2014 done fresh, CNS primer"
+  - exercise: Bench Press
+    tier: large
+    primary_muscle: chest
+    warmup_sets: 2
+    working_sets: 3
+    reps: 6-8
+    rest_sec: 120
+    weight_kg: null
+    equipment: barbell
+    notes: primary pressing lift
+  - exercise: Head Smacker
+    tier: medium
+    primary_muscle: triceps
+    warmup_sets: 1
+    working_sets: 3
+    reps: 6-8
+    rest_sec: 120
+    weight_kg: null
+    equipment: ez_bar
+    notes: skullcrusher variant
+  - exercise: Peck Deck
+    tier: light
+    primary_muscle: chest
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: fixed plane
+  - exercise: Cable Lying Triceps Extension
+    tier: light
+    primary_muscle: triceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Dumbbell Lateral Raise
+    tier: light
+    primary_muscle: shoulders_side
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: dumbbell
+    notes: side-delt staple
+  - exercise: Cable Front Raise
+    tier: light
+    primary_muscle: shoulders_front
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: ''
+- date: '2026-06-03'
+  day: wednesday
+  type: training
+  session: pull_2
+  load: 3
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Tire Flip
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: mixed
+    notes: "power \u2014 done fresh, CNS primer"
+  - exercise: Incline Dumbbell Row
+    tier: medium
+    primary_muscle: lats
+    warmup_sets: 1
+    working_sets: 3
+    reps: 6-8
+    rest_sec: 120
+    weight_kg: null
+    equipment: dumbbell
+    notes: chest supported
+  - exercise: Seated Cable Row
+    tier: medium
+    primary_muscle: lats
+    warmup_sets: 1
+    working_sets: 3
+    reps: 6-8
+    rest_sec: 120
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Seated Barbell Curl
+    tier: medium
+    primary_muscle: biceps
+    warmup_sets: 1
+    working_sets: 3
+    reps: 6-8
+    rest_sec: 120
+    weight_kg: null
+    equipment: barbell
+    notes: no momentum
+  - exercise: Pull-Up
+    tier: light
+    primary_muscle: lats
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Close-Grip Pull-Up (Legs Elevated)
+    tier: light
+    primary_muscle: lats
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Crossover Cable Curl
+    tier: light
+    primary_muscle: biceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Preacher Dumbbell Curl
+    tier: light
+    primary_muscle: biceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: dumbbell
+    notes: ''
+  - exercise: Barbell Shrug
+    tier: light
+    primary_muscle: traps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+- date: '2026-06-04'
+  day: thursday
+  type: rest
+  reason: weekly rest
+- date: '2026-06-05'
+  day: friday
+  type: training
+  session: legs_1
+  load: 3
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Dumbbell Lunge Jump
+    tier: power
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: dumbbell
+    notes: "plyo lunge \u2014 done fresh, CNS primer"
+  - exercise: Back Squat
+    tier: large
+    primary_muscle: quads
+    warmup_sets: 2
+    working_sets: 3
+    reps: 6-8
+    rest_sec: 120
+    weight_kg: null
+    equipment: barbell
+    notes: king of leg movements
+  - exercise: Standing Lunge
+    tier: medium
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 6-8
+    rest_sec: 120
+    weight_kg: null
+    equipment: dumbbell
+    notes: ''
+  - exercise: Hack Squat
+    tier: medium
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 6-8
+    rest_sec: 120
+    weight_kg: null
+    equipment: machine
+    notes: fixed-path
+  - exercise: Unilateral Leg Extension
+    tier: light
+    primary_muscle: quads
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Seated Leg Curl
+    tier: light
+    primary_muscle: hamstrings
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: 45-Degree Calf Press
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Donkey Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: stretch-focused
+- date: '2026-06-06'
+  day: saturday
+  type: training
+  session: legs_2
+  load: 3
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Box Jump
+    tier: power
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: bodyweight
+    notes: "plyo \u2014 done fresh, CNS primer"
+  - exercise: Romanian Deadlift
+    tier: large
+    primary_muscle: hamstrings
+    warmup_sets: 2
+    working_sets: 3
+    reps: 6-8
+    rest_sec: 120
+    weight_kg: null
+    equipment: barbell
+    notes: hip-hinge pattern
+  - exercise: Machine Stiff-Leg Deadlift
+    tier: medium
+    primary_muscle: hamstrings
+    warmup_sets: 1
+    working_sets: 3
+    reps: 6-8
+    rest_sec: 120
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Smith Machine Hip Thrust
+    tier: medium
+    primary_muscle: glutes
+    warmup_sets: 1
+    working_sets: 3
+    reps: 6-8
+    rest_sec: 120
+    weight_kg: null
+    equipment: smith
+    notes: ''
+  - exercise: Hyperextension
+    tier: light
+    primary_muscle: hamstrings
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: lower-back friendly
+  - exercise: Donkey Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: stretch-focused
+  - exercise: Leg Press Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Leg Extension
+    tier: light
+    primary_muscle: quads
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+- date: '2026-06-07'
+  day: sunday
+  type: training
+  session: conditioning
+  load: 3
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Medicine Ball Slam
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: mixed
+    notes: "power + conditioning \u2014 done fresh, CNS primer"
+  - exercise: Smith Machine Crunch
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: smith
+    notes: ''
+  - exercise: Sit-Up
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Incline Sit-Up
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Crossover Crunch
+    tier: light
+    primary_muscle: obliques
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Cable Woodchopper
+    tier: light
+    primary_muscle: obliques
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: rotational
+  - exercise: Jump Rope
+    tier: conditioning
+    primary_muscle: full_body
+    warmup_sets: 0
+    working_sets: 1
+    reps: 5-10 min or 4 x 30s on / 30s off
+    rest_sec: 30
+    weight_kg: null
+    equipment: bodyweight
+    notes: time-based
+  cardio_tail: 20 min steady state (Elliptical)
+- date: '2026-06-08'
+  day: monday
+  type: rest
+  reason: weekly rest
+- date: '2026-06-09'
+  day: tuesday
+  type: training
+  session: push_2
+  load: 4
+  minutes: 45
+  location: office
+  exercises:
+  - exercise: Lateral Bound
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: bodyweight
+    notes: " \u2014 done fresh, CNS primer"
+  - exercise: Bench Press
+    tier: large
+    primary_muscle: chest
+    warmup_sets: 2
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: barbell
+    notes: primary pressing lift
+  - exercise: Barbell Shoulder Press
+    tier: large
+    primary_muscle: shoulders_front
+    warmup_sets: 2
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: barbell
+    notes: military press
+  - exercise: Barbell Upright Row
+    tier: medium
+    primary_muscle: shoulders_side
+    warmup_sets: 1
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+  - exercise: Lying Pullover
+    tier: light
+    primary_muscle: chest
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: dumbbell
+    notes: ''
+  - exercise: Cable Front Raise
+    tier: light
+    primary_muscle: shoulders_front
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Triceps Pressdown
+    tier: light
+    primary_muscle: triceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: ''
+- date: '2026-06-10'
+  day: wednesday
+  type: training
+  session: pull_1
+  load: 4
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Medicine Ball Slam
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: mixed
+    notes: "power + conditioning \u2014 done fresh, CNS primer"
+  - exercise: Conventional Deadlift
+    tier: large
+    primary_muscle: back
+    warmup_sets: 2
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: barbell
+    notes: heavy full-body pull
+  - exercise: Reverse-Grip Hammer Pulldown
+    tier: medium
+    primary_muscle: lats
+    warmup_sets: 1
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Behind-the-Neck Pulldown
+    tier: medium
+    primary_muscle: lats
+    warmup_sets: 1
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: cable
+    notes: advanced
+  - exercise: EZ-Bar Curl
+    tier: medium
+    primary_muscle: biceps
+    warmup_sets: 1
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: ez_bar
+    notes: wrist-friendly
+  - exercise: Close-Grip Pull-Up (Legs Elevated)
+    tier: light
+    primary_muscle: lats
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Crossover Cable Curl
+    tier: light
+    primary_muscle: biceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Concentration Curl
+    tier: light
+    primary_muscle: biceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: dumbbell
+    notes: peak bias
+  - exercise: Smith Behind-the-Back Shrug
+    tier: light
+    primary_muscle: traps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: smith
+    notes: ''
+- date: '2026-06-11'
+  day: thursday
+  type: rest
+  reason: weekly rest
+- date: '2026-06-12'
+  day: friday
+  type: training
+  session: legs_1
+  load: 4
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Lunge Jumps
+    tier: power
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: bodyweight
+    notes: " \u2014 done fresh, CNS primer"
+  - exercise: Back Squat
+    tier: large
+    primary_muscle: quads
+    warmup_sets: 2
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: barbell
+    notes: king of leg movements
+  - exercise: BB Step-Up
+    tier: medium
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+  - exercise: Leg Press
+    tier: medium
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Leg Extension
+    tier: light
+    primary_muscle: quads
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Standing Hamstring Curl
+    tier: light
+    primary_muscle: hamstrings
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Seated Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: soleus-biased
+  - exercise: Standing Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+- date: '2026-06-13'
+  day: saturday
+  type: training
+  session: legs_2
+  load: 4
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Squat Jump
+    tier: power
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: bodyweight
+    notes: "plyometric \u2014 done fresh, CNS primer"
+  - exercise: Romanian Deadlift
+    tier: large
+    primary_muscle: hamstrings
+    warmup_sets: 2
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: barbell
+    notes: hip-hinge pattern
+  - exercise: Machine Stiff-Leg Deadlift
+    tier: medium
+    primary_muscle: hamstrings
+    warmup_sets: 1
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Barbell Hip Thrust
+    tier: medium
+    primary_muscle: glutes
+    warmup_sets: 1
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+  - exercise: Seated Leg Curl
+    tier: light
+    primary_muscle: hamstrings
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Leg Press Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: 45-Degree Calf Press
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Leg Extension
+    tier: light
+    primary_muscle: quads
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+- date: '2026-06-14'
+  day: sunday
+  type: training
+  session: conditioning
+  load: 4
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Medicine Ball Slam
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: mixed
+    notes: "power + conditioning \u2014 done fresh, CNS primer"
+  - exercise: Sit-Up
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Incline Leg Raise
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Incline Crunch
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Standing Oblique Cable Crunch
+    tier: light
+    primary_muscle: obliques
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Cable Woodchopper
+    tier: light
+    primary_muscle: obliques
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: rotational
+  - exercise: Jump Rope
+    tier: conditioning
+    primary_muscle: full_body
+    warmup_sets: 0
+    working_sets: 1
+    reps: 5-10 min or 4 x 30s on / 30s off
+    rest_sec: 30
+    weight_kg: null
+    equipment: bodyweight
+    notes: time-based
+  cardio_tail: 20 min steady state (Elliptical)
+- date: '2026-06-15'
+  day: monday
+  type: rest
+  reason: weekly rest
+- date: '2026-06-16'
+  day: tuesday
+  type: training
+  session: push_1
+  load: 1
+  minutes: 45
+  location: office
+  exercises:
+  - exercise: Lateral Bound
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: bodyweight
+    notes: " \u2014 done fresh, CNS primer"
+  - exercise: Bench Press
+    tier: large
+    primary_muscle: chest
+    warmup_sets: 2
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: barbell
+    notes: primary pressing lift
+  - exercise: Head Smacker
+    tier: medium
+    primary_muscle: triceps
+    warmup_sets: 1
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: ez_bar
+    notes: skullcrusher variant
+  - exercise: Cable Crossover
+    tier: light
+    primary_muscle: chest
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: cable
+    notes: peak contraction
+  - exercise: Rope Triceps Pressdown
+    tier: light
+    primary_muscle: triceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: cable
+    notes: spread rope at bottom
+  - exercise: Dumbbell Lateral Raise
+    tier: light
+    primary_muscle: shoulders_side
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: dumbbell
+    notes: side-delt staple
+  - exercise: Dumbbell Front Raise
+    tier: light
+    primary_muscle: shoulders_front
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: dumbbell
+    notes: ''
+- date: '2026-06-17'
+  day: wednesday
+  type: training
+  session: pull_2
+  load: 1
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Medicine Ball Slam
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: mixed
+    notes: "power + conditioning \u2014 done fresh, CNS primer"
+  - exercise: Incline Dumbbell Row
+    tier: medium
+    primary_muscle: lats
+    warmup_sets: 1
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: dumbbell
+    notes: chest supported
+  - exercise: Behind-the-Neck Pulldown
+    tier: medium
+    primary_muscle: lats
+    warmup_sets: 1
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: cable
+    notes: advanced
+  - exercise: EZ-Bar Curl
+    tier: medium
+    primary_muscle: biceps
+    warmup_sets: 1
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: ez_bar
+    notes: wrist-friendly
+  - exercise: Straight-Arm Pulldown
+    tier: light
+    primary_muscle: lats
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Pull-Up
+    tier: light
+    primary_muscle: lats
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Spider Curl
+    tier: light
+    primary_muscle: biceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: ez_bar
+    notes: short-head bias
+  - exercise: Standing Cable Curl
+    tier: light
+    primary_muscle: biceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Smith Machine Shrug
+    tier: light
+    primary_muscle: traps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: smith
+    notes: ''
+- date: '2026-06-18'
+  day: thursday
+  type: rest
+  reason: weekly rest
+- date: '2026-06-19'
+  day: friday
+  type: training
+  session: legs_1
+  load: 1
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Dumbbell Lunge Jump
+    tier: power
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: dumbbell
+    notes: "plyo lunge \u2014 done fresh, CNS primer"
+  - exercise: Back Squat
+    tier: large
+    primary_muscle: quads
+    warmup_sets: 2
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: barbell
+    notes: king of leg movements
+  - exercise: Standing Lunge
+    tier: medium
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: dumbbell
+    notes: ''
+  - exercise: Goblet Squat
+    tier: medium
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: dumbbell
+    notes: warm-up or finisher
+  - exercise: Leg Extension
+    tier: light
+    primary_muscle: quads
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Hyperextension
+    tier: light
+    primary_muscle: hamstrings
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: bodyweight
+    notes: lower-back friendly
+  - exercise: Donkey Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: stretch-focused
+  - exercise: Seated Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: soleus-biased
+- date: '2026-06-20'
+  day: saturday
+  type: training
+  session: legs_2
+  load: 1
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Lunge Jumps
+    tier: power
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: bodyweight
+    notes: " \u2014 done fresh, CNS primer"
+  - exercise: Stiff-Legged Deadlift
+    tier: large
+    primary_muscle: hamstrings
+    warmup_sets: 2
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+  - exercise: Stiff-Legged DB Deadlift
+    tier: medium
+    primary_muscle: hamstrings
+    warmup_sets: 1
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: dumbbell
+    notes: ''
+  - exercise: Barbell Hip Thrust
+    tier: medium
+    primary_muscle: glutes
+    warmup_sets: 1
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+  - exercise: Seated Leg Curl
+    tier: light
+    primary_muscle: hamstrings
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Donkey Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: stretch-focused
+  - exercise: Seated Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: soleus-biased
+  - exercise: Unilateral Leg Extension
+    tier: light
+    primary_muscle: quads
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: ''
+- date: '2026-06-21'
+  day: sunday
+  type: training
+  session: conditioning
+  load: 1
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Medicine Ball Slam
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: mixed
+    notes: "power + conditioning \u2014 done fresh, CNS primer"
+  - exercise: Incline Reverse Crunch
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: bodyweight
+    notes: lower-abs bias
+  - exercise: Smith Machine Crunch
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: smith
+    notes: ''
+  - exercise: Hanging Leg Raise
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Crossover Crunch
+    tier: light
+    primary_muscle: obliques
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Standing Oblique Cable Crunch
+    tier: light
+    primary_muscle: obliques
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Elliptical
+    tier: conditioning
+    primary_muscle: full_body
+    warmup_sets: 0
+    working_sets: 1
+    reps: 5-10 min or 4 x 30s on / 30s off
+    rest_sec: 30
+    weight_kg: null
+    equipment: machine
+    notes: time-based
+  cardio_tail: 20 min steady state (Treadmill)
+- date: '2026-06-22'
+  day: monday
+  type: rest
+  reason: weekly rest
+- date: '2026-06-23'
+  day: tuesday
+  type: training
+  session: push_2
+  load: 2
+  minutes: 45
+  location: office
+  exercises:
+  - exercise: Tire Flip
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: mixed
+    notes: "power \u2014 done fresh, CNS primer"
+  - exercise: Bench Press
+    tier: large
+    primary_muscle: chest
+    warmup_sets: 2
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: barbell
+    notes: primary pressing lift
+  - exercise: Seated Military Press
+    tier: large
+    primary_muscle: shoulders_front
+    warmup_sets: 2
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+  - exercise: Barbell Upright Row
+    tier: medium
+    primary_muscle: shoulders_side
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+  - exercise: Dips
+    tier: light
+    primary_muscle: chest
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: lean forward for chest bias
+  - exercise: Front Plate Raise
+    tier: light
+    primary_muscle: shoulders_front
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: mixed
+    notes: plate held two-handed
+  - exercise: V-Handle Cable Extension
+    tier: light
+    primary_muscle: triceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: ''
+- date: '2026-06-24'
+  day: wednesday
+  type: training
+  session: pull_1
+  load: 2
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Medicine Ball Slam
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: mixed
+    notes: "power + conditioning \u2014 done fresh, CNS primer"
+  - exercise: Rack Deadlift
+    tier: large
+    primary_muscle: back
+    warmup_sets: 2
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: barbell
+    notes: partial deadlift; back thickness
+  - exercise: Reverse-Grip Hammer Pulldown
+    tier: medium
+    primary_muscle: lats
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: One-Arm Dumbbell Row
+    tier: medium
+    primary_muscle: lats
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: dumbbell
+    notes: unilateral
+  - exercise: Seated Barbell Curl
+    tier: medium
+    primary_muscle: biceps
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: barbell
+    notes: no momentum
+  - exercise: Pull-Up
+    tier: light
+    primary_muscle: lats
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Concentration Curl
+    tier: light
+    primary_muscle: biceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: dumbbell
+    notes: peak bias
+  - exercise: Spider Curl
+    tier: light
+    primary_muscle: biceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: ez_bar
+    notes: short-head bias
+  - exercise: Smith Machine Shrug
+    tier: light
+    primary_muscle: traps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: smith
+    notes: ''
+- date: '2026-06-25'
+  day: thursday
+  type: rest
+  reason: weekly rest
+- date: '2026-06-26'
+  day: friday
+  type: training
+  session: legs_1
+  load: 2
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Squat Jump
+    tier: power
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: bodyweight
+    notes: "plyometric \u2014 done fresh, CNS primer"
+  - exercise: Back Squat
+    tier: large
+    primary_muscle: quads
+    warmup_sets: 2
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: barbell
+    notes: king of leg movements
+  - exercise: Leg Press
+    tier: medium
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Step-up with Knee Raise
+    tier: medium
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Leg Extension
+    tier: light
+    primary_muscle: quads
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Hyperextension
+    tier: light
+    primary_muscle: hamstrings
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: lower-back friendly
+  - exercise: Seated Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: soleus-biased
+  - exercise: 45-Degree Calf Press
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+- date: '2026-06-27'
+  day: saturday
+  type: training
+  session: legs_2
+  load: 2
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Box Jump
+    tier: power
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: bodyweight
+    notes: "plyo \u2014 done fresh, CNS primer"
+  - exercise: Stiff-Legged Deadlift
+    tier: large
+    primary_muscle: hamstrings
+    warmup_sets: 2
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+  - exercise: Machine Stiff-Leg Deadlift
+    tier: medium
+    primary_muscle: hamstrings
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Smith Machine Hip Thrust
+    tier: medium
+    primary_muscle: glutes
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: smith
+    notes: ''
+  - exercise: Standing Hamstring Curl
+    tier: light
+    primary_muscle: hamstrings
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: 45-Degree Calf Press
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Leg Press Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Leg Extension
+    tier: light
+    primary_muscle: quads
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+- date: '2026-06-28'
+  day: sunday
+  type: training
+  session: conditioning
+  load: 2
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Medicine Ball Slam
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: mixed
+    notes: "power + conditioning \u2014 done fresh, CNS primer"
+  - exercise: Incline Sit-Up
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Hanging Leg Raise
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Cable Crunch
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: loaded ab work
+  - exercise: Standing Twist
+    tier: light
+    primary_muscle: obliques
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: high-rep oblique finisher
+  - exercise: Cable Woodchopper
+    tier: light
+    primary_muscle: obliques
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: rotational
+  - exercise: Side-to-Side Box Shuffle
+    tier: conditioning
+    primary_muscle: full_body
+    warmup_sets: 0
+    working_sets: 1
+    reps: 5-10 min or 4 x 30s on / 30s off
+    rest_sec: 30
+    weight_kg: null
+    equipment: bodyweight
+    notes: lateral agility
+  cardio_tail: 20 min steady state (Elliptical)
+- date: '2026-06-29'
+  day: monday
+  type: blocked
+  reason: busy Monday (already rest day)
+- date: '2026-06-30'
+  day: tuesday
+  type: training
+  session: push_1
+  load: 3
+  minutes: 45
+  location: office
+  exercises:
+  - exercise: Tire Flip
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: mixed
+    notes: "power \u2014 done fresh, CNS primer"
+  - exercise: Bench Press
+    tier: large
+    primary_muscle: chest
+    warmup_sets: 2
+    working_sets: 3
+    reps: 6-8
+    rest_sec: 120
+    weight_kg: null
+    equipment: barbell
+    notes: primary pressing lift
+  - exercise: Lying Triceps Extension (Skull Crusher)
+    tier: medium
+    primary_muscle: triceps
+    warmup_sets: 1
+    working_sets: 3
+    reps: 6-8
+    rest_sec: 120
+    weight_kg: null
+    equipment: ez_bar
+    notes: ''
+  - exercise: Machine Dips
+    tier: light
+    primary_muscle: chest
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: V-Handle Cable Extension
+    tier: light
+    primary_muscle: triceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Dumbbell Lateral Raise
+    tier: light
+    primary_muscle: shoulders_side
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: dumbbell
+    notes: side-delt staple
+  - exercise: Cable Front Raise
+    tier: light
+    primary_muscle: shoulders_front
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: ''
+- date: '2026-07-01'
+  day: wednesday
+  type: training
+  session: pull_2
+  load: 3
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Rocket Jump
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: bodyweight
+    notes: " \u2014 done fresh, CNS primer"
+  - exercise: One-Arm Dumbbell Row
+    tier: medium
+    primary_muscle: lats
+    warmup_sets: 1
+    working_sets: 3
+    reps: 6-8
+    rest_sec: 120
+    weight_kg: null
+    equipment: dumbbell
+    notes: unilateral
+  - exercise: Incline Dumbbell Row
+    tier: medium
+    primary_muscle: lats
+    warmup_sets: 1
+    working_sets: 3
+    reps: 6-8
+    rest_sec: 120
+    weight_kg: null
+    equipment: dumbbell
+    notes: chest supported
+  - exercise: EZ-Bar Curl
+    tier: medium
+    primary_muscle: biceps
+    warmup_sets: 1
+    working_sets: 3
+    reps: 6-8
+    rest_sec: 120
+    weight_kg: null
+    equipment: ez_bar
+    notes: wrist-friendly
+  - exercise: Straight-Arm Pulldown
+    tier: light
+    primary_muscle: lats
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Machine Pullover
+    tier: light
+    primary_muscle: lats
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Incline Dumbbell Curl
+    tier: light
+    primary_muscle: biceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: dumbbell
+    notes: long-head stretch
+  - exercise: Rope Cable Curl
+    tier: light
+    primary_muscle: biceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Dumbbell Shrug
+    tier: light
+    primary_muscle: traps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: dumbbell
+    notes: ''
+- date: '2026-07-02'
+  day: thursday
+  type: rest
+  reason: weekly rest
+- date: '2026-07-03'
+  day: friday
+  type: training
+  session: legs_1
+  load: 3
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Lunge Jumps
+    tier: power
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: bodyweight
+    notes: " \u2014 done fresh, CNS primer"
+  - exercise: Back Squat
+    tier: large
+    primary_muscle: quads
+    warmup_sets: 2
+    working_sets: 3
+    reps: 6-8
+    rest_sec: 120
+    weight_kg: null
+    equipment: barbell
+    notes: king of leg movements
+  - exercise: Hack Squat
+    tier: medium
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 6-8
+    rest_sec: 120
+    weight_kg: null
+    equipment: machine
+    notes: fixed-path
+  - exercise: DB Step-Up
+    tier: medium
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 6-8
+    rest_sec: 120
+    weight_kg: null
+    equipment: dumbbell
+    notes: ''
+  - exercise: Leg Extension
+    tier: light
+    primary_muscle: quads
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Seated Leg Curl
+    tier: light
+    primary_muscle: hamstrings
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Standing Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Donkey Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: stretch-focused
+- date: '2026-07-04'
+  day: saturday
+  type: blocked
+  reason: busy Saturday
+- date: '2026-07-05'
+  day: sunday
+  type: blocked
+  reason: busy Sunday
+- date: '2026-07-06'
+  day: monday
+  type: rest
+  reason: weekly rest
+- date: '2026-07-07'
+  day: tuesday
+  type: training
+  session: push_2
+  load: 4
+  minutes: 45
+  location: office
+  exercises:
+  - exercise: Medicine Ball Slam
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: mixed
+    notes: "power + conditioning \u2014 done fresh, CNS primer"
+  - exercise: Bench Press
+    tier: large
+    primary_muscle: chest
+    warmup_sets: 2
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: barbell
+    notes: primary pressing lift
+  - exercise: Barbell Shoulder Press
+    tier: large
+    primary_muscle: shoulders_front
+    warmup_sets: 2
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: barbell
+    notes: military press
+  - exercise: Barbell Upright Row
+    tier: medium
+    primary_muscle: shoulders_side
+    warmup_sets: 1
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+  - exercise: Dips
+    tier: light
+    primary_muscle: chest
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: lean forward for chest bias
+  - exercise: Dumbbell Front Raise
+    tier: light
+    primary_muscle: shoulders_front
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: dumbbell
+    notes: ''
+  - exercise: Lying Dumbbell Extension
+    tier: light
+    primary_muscle: triceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: dumbbell
+    notes: ''
+- date: '2026-07-08'
+  day: wednesday
+  type: training
+  session: pull_1
+  load: 4
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Tire Flip
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: mixed
+    notes: "power \u2014 done fresh, CNS primer"
+  - exercise: Rack Deadlift
+    tier: large
+    primary_muscle: back
+    warmup_sets: 2
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: barbell
+    notes: partial deadlift; back thickness
+  - exercise: Lat Pulldown
+    tier: medium
+    primary_muscle: lats
+    warmup_sets: 1
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Bent-Over Smith Machine Row
+    tier: medium
+    primary_muscle: lats
+    warmup_sets: 1
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: smith
+    notes: ''
+  - exercise: Barbell Curl
+    tier: medium
+    primary_muscle: biceps
+    warmup_sets: 1
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+  - exercise: Rope Straight-Arm Pulldown
+    tier: light
+    primary_muscle: lats
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Crossover Cable Curl
+    tier: light
+    primary_muscle: biceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Machine Preacher Curl
+    tier: light
+    primary_muscle: biceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Smith Behind-the-Back Shrug
+    tier: light
+    primary_muscle: traps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: smith
+    notes: ''
+- date: '2026-07-09'
+  day: thursday
+  type: rest
+  reason: weekly rest
+- date: '2026-07-10'
+  day: friday
+  type: training
+  session: legs_1
+  load: 4
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Dumbbell Lunge Jump
+    tier: power
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: dumbbell
+    notes: "plyo lunge \u2014 done fresh, CNS primer"
+  - exercise: Back Squat
+    tier: large
+    primary_muscle: quads
+    warmup_sets: 2
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: barbell
+    notes: king of leg movements
+  - exercise: Standing Lunge
+    tier: medium
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: dumbbell
+    notes: ''
+  - exercise: Step-up with Knee Raise
+    tier: medium
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Unilateral Leg Extension
+    tier: light
+    primary_muscle: quads
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Hyperextension
+    tier: light
+    primary_muscle: hamstrings
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: lower-back friendly
+  - exercise: Donkey Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: stretch-focused
+  - exercise: 45-Degree Calf Press
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+- date: '2026-07-11'
+  day: saturday
+  type: blocked
+  reason: busy Saturday
+- date: '2026-07-12'
+  day: sunday
+  type: training
+  session: conditioning
+  load: 4
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Medicine Ball Slam
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: mixed
+    notes: "power + conditioning \u2014 done fresh, CNS primer"
+  - exercise: Incline Crunch
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Smith Machine Crunch
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: smith
+    notes: ''
+  - exercise: Incline Sit-Up
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Standing Twist
+    tier: light
+    primary_muscle: obliques
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: high-rep oblique finisher
+  - exercise: Standing Oblique Cable Crunch
+    tier: light
+    primary_muscle: obliques
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Treadmill
+    tier: conditioning
+    primary_muscle: full_body
+    warmup_sets: 0
+    working_sets: 1
+    reps: 5-10 min or 4 x 30s on / 30s off
+    rest_sec: 30
+    weight_kg: null
+    equipment: machine
+    notes: time-based
+  cardio_tail: 20 min steady state (Stationary Bike)
+- date: '2026-07-13'
+  day: monday
+  type: rest
+  reason: weekly rest
+- date: '2026-07-14'
+  day: tuesday
+  type: training
+  session: push_1
+  load: 1
+  minutes: 45
+  location: office
+  exercises:
+  - exercise: Smith Machine Clean
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: smith
+    notes: " \u2014 done fresh, CNS primer"
+  - exercise: Bench Press
+    tier: large
+    primary_muscle: chest
+    warmup_sets: 2
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: barbell
+    notes: primary pressing lift
+  - exercise: Lying Triceps Extension (Skull Crusher)
+    tier: medium
+    primary_muscle: triceps
+    warmup_sets: 1
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: ez_bar
+    notes: ''
+  - exercise: Narrow Push-Up
+    tier: light
+    primary_muscle: chest
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: bodyweight
+    notes: triceps emphasis
+  - exercise: Lying Dumbbell Extension
+    tier: light
+    primary_muscle: triceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: dumbbell
+    notes: ''
+  - exercise: Dumbbell Lateral Raise
+    tier: light
+    primary_muscle: shoulders_side
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: dumbbell
+    notes: side-delt staple
+  - exercise: Barbell Front Raise
+    tier: light
+    primary_muscle: shoulders_front
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+- date: '2026-07-15'
+  day: wednesday
+  type: training
+  session: pull_2
+  load: 1
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Medicine Ball Slam
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: mixed
+    notes: "power + conditioning \u2014 done fresh, CNS primer"
+  - exercise: Reverse-Grip Hammer Pulldown
+    tier: medium
+    primary_muscle: lats
+    warmup_sets: 1
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Seated Cable Row
+    tier: medium
+    primary_muscle: lats
+    warmup_sets: 1
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: EZ-Bar Curl
+    tier: medium
+    primary_muscle: biceps
+    warmup_sets: 1
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: ez_bar
+    notes: wrist-friendly
+  - exercise: Rope Straight-Arm Pulldown
+    tier: light
+    primary_muscle: lats
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Close-Grip Pull-Up (Legs Elevated)
+    tier: light
+    primary_muscle: lats
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Machine Preacher Curl
+    tier: light
+    primary_muscle: biceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: High Cable Curl
+    tier: light
+    primary_muscle: biceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: cable
+    notes: peak contraction
+  - exercise: Barbell Shrug
+    tier: light
+    primary_muscle: traps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+- date: '2026-07-16'
+  day: thursday
+  type: rest
+  reason: weekly rest
+- date: '2026-07-17'
+  day: friday
+  type: training
+  session: legs_1
+  load: 1
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Box Jump
+    tier: power
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: bodyweight
+    notes: "plyo \u2014 done fresh, CNS primer"
+  - exercise: Back Squat
+    tier: large
+    primary_muscle: quads
+    warmup_sets: 2
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: barbell
+    notes: king of leg movements
+  - exercise: Standing Lunge
+    tier: medium
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: dumbbell
+    notes: ''
+  - exercise: Hack Squat
+    tier: medium
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: fixed-path
+  - exercise: Leg Extension
+    tier: light
+    primary_muscle: quads
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Standing Hamstring Curl
+    tier: light
+    primary_muscle: hamstrings
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: 45-Degree Calf Press
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Standing Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: ''
+- date: '2026-07-18'
+  day: saturday
+  type: training
+  session: legs_2
+  load: 1
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Dumbbell Lunge Jump
+    tier: power
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: dumbbell
+    notes: "plyo lunge \u2014 done fresh, CNS primer"
+  - exercise: Stiff-Legged Deadlift
+    tier: large
+    primary_muscle: hamstrings
+    warmup_sets: 2
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+  - exercise: Stiff-Legged DB Deadlift
+    tier: medium
+    primary_muscle: hamstrings
+    warmup_sets: 1
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: dumbbell
+    notes: ''
+  - exercise: Barbell Hip Thrust
+    tier: medium
+    primary_muscle: glutes
+    warmup_sets: 1
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+  - exercise: Hyperextension
+    tier: light
+    primary_muscle: hamstrings
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: bodyweight
+    notes: lower-back friendly
+  - exercise: Seated Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: soleus-biased
+  - exercise: 45-Degree Calf Press
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Unilateral Leg Extension
+    tier: light
+    primary_muscle: quads
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: ''
+- date: '2026-07-19'
+  day: sunday
+  type: training
+  session: conditioning
+  load: 1
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Medicine Ball Slam
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: mixed
+    notes: "power + conditioning \u2014 done fresh, CNS primer"
+  - exercise: Smith Machine Crunch
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: smith
+    notes: ''
+  - exercise: Incline Reverse Crunch
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: bodyweight
+    notes: lower-abs bias
+  - exercise: Incline Crunch
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Standing Oblique Cable Crunch
+    tier: light
+    primary_muscle: obliques
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Cable Woodchopper
+    tier: light
+    primary_muscle: obliques
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: cable
+    notes: rotational
+  - exercise: Treadmill
+    tier: conditioning
+    primary_muscle: full_body
+    warmup_sets: 0
+    working_sets: 1
+    reps: 5-10 min or 4 x 30s on / 30s off
+    rest_sec: 30
+    weight_kg: null
+    equipment: machine
+    notes: time-based
+  cardio_tail: 20 min steady state (Elliptical)
+- date: '2026-07-20'
+  day: monday
+  type: rest
+  reason: weekly rest
+- date: '2026-07-21'
+  day: tuesday
+  type: training
+  session: push_2
+  load: 2
+  minutes: 45
+  location: office
+  exercises:
+  - exercise: Tire Flip
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: mixed
+    notes: "power \u2014 done fresh, CNS primer"
+  - exercise: Bench Press
+    tier: large
+    primary_muscle: chest
+    warmup_sets: 2
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: barbell
+    notes: primary pressing lift
+  - exercise: Seated Military Press
+    tier: large
+    primary_muscle: shoulders_front
+    warmup_sets: 2
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+  - exercise: Smith One-Arm Upright Row
+    tier: medium
+    primary_muscle: shoulders_side
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: smith
+    notes: ''
+  - exercise: Modified Push-Up
+    tier: light
+    primary_muscle: chest
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Front Plate Raise
+    tier: light
+    primary_muscle: shoulders_front
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: mixed
+    notes: plate held two-handed
+  - exercise: Reverse Cable Pushdown
+    tier: light
+    primary_muscle: triceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: underhand grip
+- date: '2026-07-22'
+  day: wednesday
+  type: training
+  session: pull_1
+  load: 2
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: DB Clean
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: dumbbell
+    notes: "explosive full-body \u2014 done fresh, CNS primer"
+  - exercise: Rack Deadlift
+    tier: large
+    primary_muscle: back
+    warmup_sets: 2
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: barbell
+    notes: partial deadlift; back thickness
+  - exercise: Seated Cable Row
+    tier: medium
+    primary_muscle: lats
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: One-Arm Dumbbell Row
+    tier: medium
+    primary_muscle: lats
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: dumbbell
+    notes: unilateral
+  - exercise: Barbell Curl
+    tier: medium
+    primary_muscle: biceps
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+  - exercise: Close-Grip Pull-Up (Legs Elevated)
+    tier: light
+    primary_muscle: lats
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Rope Cable Curl
+    tier: light
+    primary_muscle: biceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Machine Preacher Curl
+    tier: light
+    primary_muscle: biceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Smith Behind-the-Back Shrug
+    tier: light
+    primary_muscle: traps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: smith
+    notes: ''
+- date: '2026-07-23'
+  day: thursday
+  type: rest
+  reason: weekly rest
+- date: '2026-07-24'
+  day: friday
+  type: training
+  session: legs_1
+  load: 2
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Lunge Jumps
+    tier: power
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: bodyweight
+    notes: " \u2014 done fresh, CNS primer"
+  - exercise: Back Squat
+    tier: large
+    primary_muscle: quads
+    warmup_sets: 2
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: barbell
+    notes: king of leg movements
+  - exercise: Walking Lunge
+    tier: medium
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: dumbbell
+    notes: steps per leg
+  - exercise: Goblet Squat
+    tier: medium
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: dumbbell
+    notes: warm-up or finisher
+  - exercise: Leg Extension
+    tier: light
+    primary_muscle: quads
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Lying Leg Curl
+    tier: light
+    primary_muscle: hamstrings
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: 45-Degree Calf Press
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Donkey Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: stretch-focused
+- date: '2026-07-25'
+  day: saturday
+  type: training
+  session: legs_2
+  load: 2
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Squat Jump
+    tier: power
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: bodyweight
+    notes: "plyometric \u2014 done fresh, CNS primer"
+  - exercise: Stiff-Legged Deadlift
+    tier: large
+    primary_muscle: hamstrings
+    warmup_sets: 2
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+  - exercise: Machine Stiff-Leg Deadlift
+    tier: medium
+    primary_muscle: hamstrings
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Barbell Hip Thrust
+    tier: medium
+    primary_muscle: glutes
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+  - exercise: Lying Leg Curl
+    tier: light
+    primary_muscle: hamstrings
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Seated Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: soleus-biased
+  - exercise: Standing Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Leg Extension
+    tier: light
+    primary_muscle: quads
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+- date: '2026-07-26'
+  day: sunday
+  type: training
+  session: conditioning
+  load: 2
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Medicine Ball Slam
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: mixed
+    notes: "power + conditioning \u2014 done fresh, CNS primer"
+  - exercise: Incline Sit-Up
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Weighted Sit-Up
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: plate held on chest
+  - exercise: Smith Machine Crunch
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: smith
+    notes: ''
+  - exercise: Cable Woodchopper
+    tier: light
+    primary_muscle: obliques
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: rotational
+  - exercise: Crossover Crunch
+    tier: light
+    primary_muscle: obliques
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Treadmill
+    tier: conditioning
+    primary_muscle: full_body
+    warmup_sets: 0
+    working_sets: 1
+    reps: 5-10 min or 4 x 30s on / 30s off
+    rest_sec: 30
+    weight_kg: null
+    equipment: machine
+    notes: time-based
+  cardio_tail: 20 min steady state (Elliptical)
+- date: '2026-07-27'
+  day: monday
+  type: rest
+  reason: weekly rest
+- date: '2026-07-28'
+  day: tuesday
+  type: training
+  session: push_1
+  load: 3
+  minutes: 45
+  location: office
+  exercises:
+  - exercise: Medicine Ball Slam
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: mixed
+    notes: "power + conditioning \u2014 done fresh, CNS primer"
+  - exercise: Bench Press
+    tier: large
+    primary_muscle: chest
+    warmup_sets: 2
+    working_sets: 3
+    reps: 6-8
+    rest_sec: 120
+    weight_kg: null
+    equipment: barbell
+    notes: primary pressing lift
+  - exercise: Smith Close-Grip Bench Press
+    tier: medium
+    primary_muscle: triceps
+    warmup_sets: 1
+    working_sets: 3
+    reps: 6-8
+    rest_sec: 120
+    weight_kg: null
+    equipment: smith
+    notes: ''
+  - exercise: Peck Deck
+    tier: light
+    primary_muscle: chest
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: fixed plane
+  - exercise: Bench Dips
+    tier: light
+    primary_muscle: triceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: triceps emphasis
+  - exercise: Leaning Dumbbell Raise
+    tier: light
+    primary_muscle: shoulders_side
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: dumbbell
+    notes: one-arm variant
+  - exercise: Front Plate Raise
+    tier: light
+    primary_muscle: shoulders_front
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: mixed
+    notes: plate held two-handed
+- date: '2026-07-29'
+  day: wednesday
+  type: training
+  session: pull_2
+  load: 3
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Tire Flip
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: mixed
+    notes: "power \u2014 done fresh, CNS primer"
+  - exercise: Seated Cable Row
+    tier: medium
+    primary_muscle: lats
+    warmup_sets: 1
+    working_sets: 3
+    reps: 6-8
+    rest_sec: 120
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Lat Pulldown
+    tier: medium
+    primary_muscle: lats
+    warmup_sets: 1
+    working_sets: 3
+    reps: 6-8
+    rest_sec: 120
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: EZ-Bar Curl
+    tier: medium
+    primary_muscle: biceps
+    warmup_sets: 1
+    working_sets: 3
+    reps: 6-8
+    rest_sec: 120
+    weight_kg: null
+    equipment: ez_bar
+    notes: wrist-friendly
+  - exercise: Rope Straight-Arm Pulldown
+    tier: light
+    primary_muscle: lats
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Pull-Up
+    tier: light
+    primary_muscle: lats
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Machine Preacher Curl
+    tier: light
+    primary_muscle: biceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Alternating Dumbbell Curl
+    tier: light
+    primary_muscle: biceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: dumbbell
+    notes: ''
+  - exercise: Dumbbell Shrug
+    tier: light
+    primary_muscle: traps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: dumbbell
+    notes: ''
+- date: '2026-07-30'
+  day: thursday
+  type: blocked
+  reason: holiday
+- date: '2026-07-31'
+  day: friday
+  type: blocked
+  reason: holiday
+- date: '2026-08-01'
+  day: saturday
+  type: blocked
+  reason: holiday
+- date: '2026-08-02'
+  day: sunday
+  type: blocked
+  reason: holiday
+- date: '2026-08-03'
+  day: monday
+  type: rest
+  reason: weekly rest
+- date: '2026-08-04'
+  day: tuesday
+  type: training
+  session: push_2
+  load: 4
+  minutes: 45
+  location: office
+  exercises:
+  - exercise: Medicine Ball Slam
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: mixed
+    notes: "power + conditioning \u2014 done fresh, CNS primer"
+  - exercise: Bench Press
+    tier: large
+    primary_muscle: chest
+    warmup_sets: 2
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: barbell
+    notes: primary pressing lift
+  - exercise: Barbell Shoulder Press
+    tier: large
+    primary_muscle: shoulders_front
+    warmup_sets: 2
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: barbell
+    notes: military press
+  - exercise: Dumbbell Upright Row
+    tier: medium
+    primary_muscle: shoulders_side
+    warmup_sets: 1
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: dumbbell
+    notes: ''
+  - exercise: Narrow Push-Up
+    tier: light
+    primary_muscle: chest
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: triceps emphasis
+  - exercise: Barbell Front Raise
+    tier: light
+    primary_muscle: shoulders_front
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+  - exercise: Rope Triceps Pressdown
+    tier: light
+    primary_muscle: triceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: spread rope at bottom
+- date: '2026-08-05'
+  day: wednesday
+  type: training
+  session: pull_1
+  load: 4
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: DB Clean
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: dumbbell
+    notes: "explosive full-body \u2014 done fresh, CNS primer"
+  - exercise: Conventional Deadlift
+    tier: large
+    primary_muscle: back
+    warmup_sets: 2
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: barbell
+    notes: heavy full-body pull
+  - exercise: Bent-Over Smith Machine Row
+    tier: medium
+    primary_muscle: lats
+    warmup_sets: 1
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: smith
+    notes: ''
+  - exercise: Incline Dumbbell Row
+    tier: medium
+    primary_muscle: lats
+    warmup_sets: 1
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: dumbbell
+    notes: chest supported
+  - exercise: Barbell Curl
+    tier: medium
+    primary_muscle: biceps
+    warmup_sets: 1
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+  - exercise: Machine Pullover
+    tier: light
+    primary_muscle: lats
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Concentration Curl
+    tier: light
+    primary_muscle: biceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: dumbbell
+    notes: peak bias
+  - exercise: Hammer Cable Curl
+    tier: light
+    primary_muscle: biceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Smith Machine Shrug
+    tier: light
+    primary_muscle: traps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: smith
+    notes: ''
+- date: '2026-08-06'
+  day: thursday
+  type: rest
+  reason: weekly rest
+- date: '2026-08-07'
+  day: friday
+  type: training
+  session: legs_1
+  load: 4
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Dumbbell Lunge Jump
+    tier: power
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: dumbbell
+    notes: "plyo lunge \u2014 done fresh, CNS primer"
+  - exercise: Back Squat
+    tier: large
+    primary_muscle: quads
+    warmup_sets: 2
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: barbell
+    notes: king of leg movements
+  - exercise: Hack Squat
+    tier: medium
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: machine
+    notes: fixed-path
+  - exercise: Standing Lunge
+    tier: medium
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: dumbbell
+    notes: ''
+  - exercise: Leg Extension
+    tier: light
+    primary_muscle: quads
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Standing Hamstring Curl
+    tier: light
+    primary_muscle: hamstrings
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Donkey Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: stretch-focused
+  - exercise: 45-Degree Calf Press
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+- date: '2026-08-08'
+  day: saturday
+  type: training
+  session: legs_2
+  load: 4
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Squat Jump
+    tier: power
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: bodyweight
+    notes: "plyometric \u2014 done fresh, CNS primer"
+  - exercise: Romanian Deadlift
+    tier: large
+    primary_muscle: hamstrings
+    warmup_sets: 2
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: barbell
+    notes: hip-hinge pattern
+  - exercise: Machine Stiff-Leg Deadlift
+    tier: medium
+    primary_muscle: hamstrings
+    warmup_sets: 1
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Smith Machine Hip Thrust
+    tier: medium
+    primary_muscle: glutes
+    warmup_sets: 1
+    working_sets: 3
+    reps: 2-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: smith
+    notes: ''
+  - exercise: Single Leg Hamstring Curl
+    tier: light
+    primary_muscle: hamstrings
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Standing Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: 45-Degree Calf Press
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Unilateral Leg Extension
+    tier: light
+    primary_muscle: quads
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+- date: '2026-08-09'
+  day: sunday
+  type: training
+  session: conditioning
+  load: 4
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Medicine Ball Slam
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: mixed
+    notes: "power + conditioning \u2014 done fresh, CNS primer"
+  - exercise: Crunch
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Smith Machine Crunch
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: smith
+    notes: ''
+  - exercise: Incline Leg Raise
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Standing Twist
+    tier: light
+    primary_muscle: obliques
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: high-rep oblique finisher
+  - exercise: Cable Woodchopper
+    tier: light
+    primary_muscle: obliques
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: rotational
+  - exercise: Running in Place
+    tier: conditioning
+    primary_muscle: full_body
+    warmup_sets: 0
+    working_sets: 1
+    reps: 5-10 min or 4 x 30s on / 30s off
+    rest_sec: 30
+    weight_kg: null
+    equipment: bodyweight
+    notes: minimal-space filler
+  cardio_tail: 20 min steady state (Stationary Bike)
+- date: '2026-08-10'
+  day: monday
+  type: rest
+  reason: weekly rest
+- date: '2026-08-11'
+  day: tuesday
+  type: training
+  session: push_1
+  load: 1
+  minutes: 45
+  location: office
+  exercises:
+  - exercise: Rocket Jump
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: bodyweight
+    notes: " \u2014 done fresh, CNS primer"
+  - exercise: Bench Press
+    tier: large
+    primary_muscle: chest
+    warmup_sets: 2
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: barbell
+    notes: primary pressing lift
+  - exercise: Lying Triceps Extension (Skull Crusher)
+    tier: medium
+    primary_muscle: triceps
+    warmup_sets: 1
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: ez_bar
+    notes: ''
+  - exercise: Lying Pullover
+    tier: light
+    primary_muscle: chest
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: dumbbell
+    notes: ''
+  - exercise: Overhead Cable Triceps Extension
+    tier: light
+    primary_muscle: triceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Dumbbell Lateral Raise
+    tier: light
+    primary_muscle: shoulders_side
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: dumbbell
+    notes: side-delt staple
+  - exercise: Front Plate Raise
+    tier: light
+    primary_muscle: shoulders_front
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: mixed
+    notes: plate held two-handed
+- date: '2026-08-12'
+  day: wednesday
+  type: training
+  session: pull_2
+  load: 1
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Lateral Bound
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: bodyweight
+    notes: " \u2014 done fresh, CNS primer"
+  - exercise: Reverse-Grip Hammer Pulldown
+    tier: medium
+    primary_muscle: lats
+    warmup_sets: 1
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Wide-Grip Lat Pulldown
+    tier: medium
+    primary_muscle: lats
+    warmup_sets: 1
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: cable
+    notes: lat width bias
+  - exercise: Preacher Curl
+    tier: medium
+    primary_muscle: biceps
+    warmup_sets: 1
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: ez_bar
+    notes: strict form
+  - exercise: Rope Straight-Arm Pulldown
+    tier: light
+    primary_muscle: lats
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Straight-Arm Pulldown
+    tier: light
+    primary_muscle: lats
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Hammer Cable Curl
+    tier: light
+    primary_muscle: biceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Preacher Dumbbell Curl
+    tier: light
+    primary_muscle: biceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: dumbbell
+    notes: ''
+  - exercise: Smith Behind-the-Back Shrug
+    tier: light
+    primary_muscle: traps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: smith
+    notes: ''
+- date: '2026-08-13'
+  day: thursday
+  type: rest
+  reason: weekly rest
+- date: '2026-08-14'
+  day: friday
+  type: training
+  session: legs_1
+  load: 1
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Squat Jump
+    tier: power
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: bodyweight
+    notes: "plyometric \u2014 done fresh, CNS primer"
+  - exercise: Back Squat
+    tier: large
+    primary_muscle: quads
+    warmup_sets: 2
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: barbell
+    notes: king of leg movements
+  - exercise: Hack Squat
+    tier: medium
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: fixed-path
+  - exercise: Step-up with Knee Raise
+    tier: medium
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Leg Extension
+    tier: light
+    primary_muscle: quads
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Single Leg Hamstring Curl
+    tier: light
+    primary_muscle: hamstrings
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Standing Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Seated Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: soleus-biased
+- date: '2026-08-15'
+  day: saturday
+  type: training
+  session: legs_2
+  load: 1
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Dumbbell Lunge Jump
+    tier: power
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: dumbbell
+    notes: "plyo lunge \u2014 done fresh, CNS primer"
+  - exercise: Romanian Deadlift
+    tier: large
+    primary_muscle: hamstrings
+    warmup_sets: 2
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: barbell
+    notes: hip-hinge pattern
+  - exercise: Machine Stiff-Leg Deadlift
+    tier: medium
+    primary_muscle: hamstrings
+    warmup_sets: 1
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Barbell Hip Thrust
+    tier: medium
+    primary_muscle: glutes
+    warmup_sets: 1
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+  - exercise: Single Leg Hamstring Curl
+    tier: light
+    primary_muscle: hamstrings
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Standing Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Seated Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: soleus-biased
+  - exercise: Leg Extension
+    tier: light
+    primary_muscle: quads
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: machine
+    notes: ''
+- date: '2026-08-16'
+  day: sunday
+  type: training
+  session: conditioning
+  load: 1
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Medicine Ball Slam
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: mixed
+    notes: "power + conditioning \u2014 done fresh, CNS primer"
+  - exercise: Incline Reverse Crunch
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: bodyweight
+    notes: lower-abs bias
+  - exercise: Sit-Up
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Crunch
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Cable Woodchopper
+    tier: light
+    primary_muscle: obliques
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: cable
+    notes: rotational
+  - exercise: Standing Twist
+    tier: light
+    primary_muscle: obliques
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 45
+    weight_kg: null
+    equipment: bodyweight
+    notes: high-rep oblique finisher
+  - exercise: Jump Rope
+    tier: conditioning
+    primary_muscle: full_body
+    warmup_sets: 0
+    working_sets: 1
+    reps: 5-10 min or 4 x 30s on / 30s off
+    rest_sec: 30
+    weight_kg: null
+    equipment: bodyweight
+    notes: time-based
+  cardio_tail: 20 min steady state (Stationary Bike)
+- date: '2026-08-17'
+  day: monday
+  type: rest
+  reason: weekly rest
+- date: '2026-08-18'
+  day: tuesday
+  type: training
+  session: push_2
+  load: 2
+  minutes: 45
+  location: office
+  exercises:
+  - exercise: Rocket Jump
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: bodyweight
+    notes: " \u2014 done fresh, CNS primer"
+  - exercise: Bench Press
+    tier: large
+    primary_muscle: chest
+    warmup_sets: 2
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: barbell
+    notes: primary pressing lift
+  - exercise: Seated Military Press
+    tier: large
+    primary_muscle: shoulders_front
+    warmup_sets: 2
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+  - exercise: Barbell Upright Row
+    tier: medium
+    primary_muscle: shoulders_side
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+  - exercise: Peck Deck
+    tier: light
+    primary_muscle: chest
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: fixed plane
+  - exercise: Front Plate Raise
+    tier: light
+    primary_muscle: shoulders_front
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: mixed
+    notes: plate held two-handed
+  - exercise: Overhead Rope Triceps Extension
+    tier: light
+    primary_muscle: triceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: ''
+- date: '2026-08-19'
+  day: wednesday
+  type: training
+  session: pull_1
+  load: 2
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Lateral Bound
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: bodyweight
+    notes: " \u2014 done fresh, CNS primer"
+  - exercise: Conventional Deadlift
+    tier: large
+    primary_muscle: back
+    warmup_sets: 2
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: barbell
+    notes: heavy full-body pull
+  - exercise: Incline Dumbbell Row
+    tier: medium
+    primary_muscle: lats
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: dumbbell
+    notes: chest supported
+  - exercise: Reverse-Grip Pulldown
+    tier: medium
+    primary_muscle: lats
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: cable
+    notes: lower-lat bias
+  - exercise: Barbell Curl
+    tier: medium
+    primary_muscle: biceps
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+  - exercise: Straight-Arm Pulldown
+    tier: light
+    primary_muscle: lats
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Lying Biceps Curl
+    tier: light
+    primary_muscle: biceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: dumbbell
+    notes: ''
+  - exercise: EZ-Bar Cable Curl
+    tier: light
+    primary_muscle: biceps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Dumbbell Shrug
+    tier: light
+    primary_muscle: traps
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: dumbbell
+    notes: ''
+- date: '2026-08-20'
+  day: thursday
+  type: rest
+  reason: weekly rest
+- date: '2026-08-21'
+  day: friday
+  type: training
+  session: legs_1
+  load: 2
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Dumbbell Lunge Jump
+    tier: power
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: dumbbell
+    notes: "plyo lunge \u2014 done fresh, CNS primer"
+  - exercise: Back Squat
+    tier: large
+    primary_muscle: quads
+    warmup_sets: 2
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: barbell
+    notes: king of leg movements
+  - exercise: DB Step-Up
+    tier: medium
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: dumbbell
+    notes: ''
+  - exercise: Walking Lunge
+    tier: medium
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: dumbbell
+    notes: steps per leg
+  - exercise: Unilateral Leg Extension
+    tier: light
+    primary_muscle: quads
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Seated Leg Curl
+    tier: light
+    primary_muscle: hamstrings
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Leg Press Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Donkey Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: stretch-focused
+- date: '2026-08-22'
+  day: saturday
+  type: training
+  session: legs_2
+  load: 2
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Box Jump
+    tier: power
+    primary_muscle: quads
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: bodyweight
+    notes: "plyo \u2014 done fresh, CNS primer"
+  - exercise: Romanian Deadlift
+    tier: large
+    primary_muscle: hamstrings
+    warmup_sets: 2
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: barbell
+    notes: hip-hinge pattern
+  - exercise: Machine Stiff-Leg Deadlift
+    tier: medium
+    primary_muscle: hamstrings
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Barbell Hip Thrust
+    tier: medium
+    primary_muscle: glutes
+    warmup_sets: 1
+    working_sets: 3
+    reps: 9-11
+    rest_sec: 75
+    weight_kg: null
+    equipment: barbell
+    notes: ''
+  - exercise: Lying Leg Curl
+    tier: light
+    primary_muscle: hamstrings
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Standing Calf Raise
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: 45-Degree Calf Press
+    tier: light
+    primary_muscle: calves
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+  - exercise: Unilateral Leg Extension
+    tier: light
+    primary_muscle: quads
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: machine
+    notes: ''
+- date: '2026-08-23'
+  day: sunday
+  type: training
+  session: conditioning
+  load: 2
+  minutes: 60
+  location: home
+  exercises:
+  - exercise: Medicine Ball Slam
+    tier: power
+    primary_muscle: full_body
+    warmup_sets: 1
+    working_sets: 3
+    reps: 3-5
+    rest_sec: 180
+    weight_kg: null
+    equipment: mixed
+    notes: "power + conditioning \u2014 done fresh, CNS primer"
+  - exercise: Sit-Up
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Crunch
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Incline Crunch
+    tier: light
+    primary_muscle: abs
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: bodyweight
+    notes: ''
+  - exercise: Cable Woodchopper
+    tier: light
+    primary_muscle: obliques
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: rotational
+  - exercise: Standing Oblique Cable Crunch
+    tier: light
+    primary_muscle: obliques
+    warmup_sets: 0
+    working_sets: 3
+    reps: 12-15
+    rest_sec: 60
+    weight_kg: null
+    equipment: cable
+    notes: ''
+  - exercise: Side-to-Side Box Shuffle
+    tier: conditioning
+    primary_muscle: full_body
+    warmup_sets: 0
+    working_sets: 1
+    reps: 5-10 min or 4 x 30s on / 30s off
+    rest_sec: 30
+    weight_kg: null
+    equipment: bodyweight
+    notes: lateral agility
+  cardio_tail: 20 min steady state (Swimming)
