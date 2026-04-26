@@ -194,6 +194,15 @@ def build_schedule(meta: dict, calendar: dict) -> list[dict]:
             d = dt.date.fromisoformat(d)
         blocked[d] = entry.get("reason", "blocked")
 
+    # One-off session overrides: force a specific session on a date that would
+    # otherwise be a rest day. Keyed by date.
+    session_overrides: dict[dt.date, dict] = {}
+    for entry in (calendar.get("session_overrides") or []):
+        d = entry["date"]
+        if isinstance(d, str):
+            d = dt.date.fromisoformat(d)
+        session_overrides[d] = entry
+
     rotation_idx = 0  # used only if legacy lifting_rotation is defined
     # Per-weekday counters for the day-map variant alternation.
     weekday_alt_idx: dict[str, int] = {d: 0 for d in lifting_day_map}
@@ -209,8 +218,9 @@ def build_schedule(meta: dict, calendar: dict) -> list[dict]:
             schedule.append(entry)
             continue
 
-        # 2. Weekly rest days.
-        if day_name in rest_days:
+        # 2. Weekly rest days — unless a session_override forces training.
+        override = session_overrides.get(date)
+        if day_name in rest_days and not override:
             entry.update({"type": "rest", "reason": "weekly rest"})
             schedule.append(entry)
             continue
@@ -219,7 +229,9 @@ def build_schedule(meta: dict, calendar: dict) -> list[dict]:
         week_idx = (date - start_date).days // 7  # 0-indexed
         load = load_wave[week_idx % wave_len]
 
-        if day_name in conditioning_days:
+        if override:
+            session_name = override["session"]
+        elif day_name in conditioning_days:
             session_name = "conditioning"
         elif day_name in lifting_day_map:
             variants = lifting_day_map[day_name]
@@ -235,10 +247,17 @@ def build_schedule(meta: dict, calendar: dict) -> list[dict]:
             continue
 
         spec = sessions_spec[session_name]
-        override = day_overrides.get(day_name, {})
-        minutes = override.get("minutes", default_minutes)
-        include_conditioning = override.get(
+        day_override = day_overrides.get(day_name, {})
+        minutes = (
+            (override.get("minutes") if override else None)
+            or day_override.get("minutes", default_minutes)
+        )
+        include_conditioning = day_override.get(
             "include_conditioning", spec.get("include_conditioning", False)
+        )
+        location = (
+            (override.get("location") if override else None)
+            or day_override.get("location", "home")
         )
         # Seed reproducibly off the date so rebuilds are stable.
         seed = int(date.strftime("%Y%m%d"))
@@ -279,7 +298,7 @@ def build_schedule(meta: dict, calendar: dict) -> list[dict]:
                 "session": session_name,
                 "load": load,
                 "minutes": minutes,
-                "location": override.get("location", "home"),
+                "location": location,
                 "exercises": _workout_to_dict(workout, prs),
             }
         )

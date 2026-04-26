@@ -162,7 +162,7 @@ HERO_TMPL = """
 <section class="relative py-12 md:py-16 px-6 md:px-8">
     <div class="max-w-4xl mx-auto">
         <div class="inline-block px-3 py-1.5 rounded-full border border-black/10 mb-6">
-            <span class="mono-label text-th-charcoal/60">Week&nbsp;{n}&nbsp;of&nbsp;18</span>
+            <span class="mono-label text-th-charcoal/60">Week&nbsp;{n}&nbsp;of&nbsp;17</span>
         </div>
         <h1 class="text-4xl md:text-6xl font-display font-medium tracking-tight mb-4">
             {date_range}
@@ -399,12 +399,12 @@ def render_week_html(n: int, schedule: list[dict], plan_start: dt.date) -> str:
     )
     next_html = (
         f'<a href="week-{n+1:02d}.html" class="text-th-charcoal/70 hover:text-th-accent transition">Week&nbsp;{n+1}&nbsp;&rarr;</a>'
-        if n < 18
+        if n < 17
         else '<span class="text-th-charcoal/30 hidden sm:inline cursor-not-allowed">Next &rarr;</span>'
     )
     footer_next = (
         f'<a href="week-{n+1:02d}.html" class="font-display font-semibold text-sm hover:text-th-accent transition">Week&nbsp;{n+1}&nbsp;&rarr;</a>'
-        if n < 18
+        if n < 17
         else '<span class="mono-label text-th-charcoal/30">Final&nbsp;week</span>'
     )
 
@@ -437,7 +437,7 @@ def main() -> None:
     if isinstance(plan_start, str):
         plan_start = dt.date.fromisoformat(plan_start)
     DOCS.mkdir(exist_ok=True)
-    week_args = sys.argv[1:] or [str(n) for n in range(1, 19)]
+    week_args = sys.argv[1:] or [str(n) for n in range(1, 18)]
     for w in week_args:
         n = int(w)
         html = render_week_html(n, schedule, plan_start)

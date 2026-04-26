@@ -3,8 +3,8 @@
 # `start_date` is the first Tuesday on/after plan creation.
 
 goal: "Hypertrophy + 10% weight loss (90 kg -> 81 kg) in 90 days while maintaining strength."
-start_date: 2026-04-21
-end_date:   2026-08-23   # Sunday — gives 18 clean Mon-Sun calendar weeks
+start_date: 2026-04-28
+end_date:   2026-08-23   # Sunday — 17 clean Mon-Sun calendar weeks (Mon 27 Apr → Sun 23 Aug)
 minutes_per_session: 60
 
 # Per-weekday overrides applied on top of the session spec.
