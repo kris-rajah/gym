@@ -2,22 +2,22 @@
 # Updated conversationally: tell me "I'm in Paris May 10-14" and I'll add entries
 # here. After updates, re-run scripts/schedule.py to rebuild schedule.yaml.
 blocked:
-  - { date: 2026-04-28, reason: "in office Tue — no gym access (week 1)" }
-  - { date: 2026-05-02, reason: "busy Saturday (week 1)" }
-  - { date: 2026-05-08, reason: "in office Fri — no gym access" }
-  - { date: 2026-05-13, reason: "in office Wed — no gym access" }
-  - { date: 2026-06-29, reason: "busy Monday (already rest day)" }
-  - { date: 2026-07-04, reason: "busy Saturday" }
-  - { date: 2026-07-05, reason: "busy Sunday" }
-  - { date: 2026-07-11, reason: "busy Saturday" }
-  - { date: 2026-07-30, reason: "holiday" }
-  - { date: 2026-07-31, reason: "holiday" }
-  - { date: 2026-08-01, reason: "holiday" }
-  - { date: 2026-08-02, reason: "holiday" }
+  - { date: 2026-04-28, reason: "busy" }
+  - { date: 2026-05-02, reason: "busy" }
+  - { date: 2026-05-08, reason: "busy" }
+  - { date: 2026-05-13, reason: "busy" }
+  - { date: 2026-06-29, reason: "busy" }
+  - { date: 2026-07-04, reason: "busy" }
+  - { date: 2026-07-05, reason: "busy" }
+  - { date: 2026-07-11, reason: "busy" }
+  - { date: 2026-07-30, reason: "away" }
+  - { date: 2026-07-31, reason: "away" }
+  - { date: 2026-08-01, reason: "away" }
+  - { date: 2026-08-02, reason: "away" }
 
 # One-off session overrides. Forces a specific session on a date that would
 # otherwise be a rest day. Use sparingly when you swap a training day with a
 # rest day for a single week (e.g. Tue blocked → train Thu instead).
 session_overrides:
   - { date: 2026-04-30, session: push_1, location: office, minutes: 45,
-      reason: "make-up for blocked Tue 28 Apr (week 1)" }
+      reason: "make-up" }

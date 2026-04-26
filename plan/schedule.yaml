@@ -1,7 +1,7 @@
 - date: '2026-04-28'
   day: tuesday
   type: blocked
-  reason: "in office Tue \u2014 no gym access (week 1)"
+  reason: busy
 - date: '2026-04-29'
   day: wednesday
   type: training
@@ -269,7 +269,7 @@
 - date: '2026-05-02'
   day: saturday
   type: blocked
-  reason: busy Saturday (week 1)
+  reason: busy
 - date: '2026-05-03'
   day: sunday
   type: training
@@ -536,7 +536,7 @@
 - date: '2026-05-08'
   day: friday
   type: blocked
-  reason: "in office Fri \u2014 no gym access"
+  reason: busy
 - date: '2026-05-09'
   day: saturday
   type: training
@@ -789,7 +789,7 @@
 - date: '2026-05-13'
   day: wednesday
   type: blocked
-  reason: "in office Wed \u2014 no gym access"
+  reason: busy
 - date: '2026-05-14'
   day: thursday
   type: rest
@@ -3686,7 +3686,7 @@
 - date: '2026-06-29'
   day: monday
   type: blocked
-  reason: busy Monday (already rest day)
+  reason: busy
 - date: '2026-06-30'
   day: tuesday
   type: training
@@ -3958,11 +3958,11 @@
 - date: '2026-07-04'
   day: saturday
   type: blocked
-  reason: busy Saturday
+  reason: busy
 - date: '2026-07-05'
   day: sunday
   type: blocked
-  reason: busy Sunday
+  reason: busy
 - date: '2026-07-06'
   day: monday
   type: rest
@@ -4238,7 +4238,7 @@
 - date: '2026-07-11'
   day: saturday
   type: blocked
-  reason: busy Saturday
+  reason: busy
 - date: '2026-07-12'
   day: sunday
   type: training
@@ -5379,19 +5379,19 @@
 - date: '2026-07-30'
   day: thursday
   type: blocked
-  reason: holiday
+  reason: away
 - date: '2026-07-31'
   day: friday
   type: blocked
-  reason: holiday
+  reason: away
 - date: '2026-08-01'
   day: saturday
   type: blocked
-  reason: holiday
+  reason: away
 - date: '2026-08-02'
   day: sunday
   type: blocked
-  reason: holiday
+  reason: away
 - date: '2026-08-03'
   day: monday
   type: rest
