@@ -4,3 +4,9 @@ __pycache__/
 *.pyo
 .venv/
 .env
+
+# Personal plan data — kept local, not published to the public repo.
+# Only the rendered docs/*.html (with scrubbed reasons) get pushed.
+plan/*.yaml
+plan/logs/
+plan/rendered/
