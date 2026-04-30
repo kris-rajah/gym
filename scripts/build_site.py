@@ -12,6 +12,7 @@ Usage:
 from __future__ import annotations
 
 import datetime as dt
+import re
 import sys
 from pathlib import Path
 
@@ -21,7 +22,46 @@ HERE = Path(__file__).parent
 REPO = HERE.parent
 META = REPO / "plan" / "meta.yaml"
 SCHED = REPO / "plan" / "schedule.yaml"
+LOGS = REPO / "plan" / "logs"
 DOCS = REPO / "docs"
+
+
+def _norm_name(s: str) -> str:
+    """Normalise an exercise name for fuzzy matching against log bullets."""
+    return re.sub(r"[^a-z0-9]+", "", s.lower())
+
+
+def _parse_log(date_iso: str) -> dict:
+    """Read plan/logs/YYYY-MM-DD.md and return a per-exercise result dict.
+
+    Returns {normalised_name: {"status": "done"|"not_done", "actual": str, "raw": str}}.
+    Returns {} if the log file doesn't exist.
+    """
+    path = LOGS / f"{date_iso}.md"
+    if not path.exists():
+        return {}
+    out: dict = {}
+    in_results = False
+    for raw in path.read_text().splitlines():
+        line = raw.rstrip()
+        if line.startswith("## "):
+            in_results = line.lower().startswith("## results")
+            continue
+        if not in_results:
+            continue
+        m = re.match(r"^\s*-\s+(.+?):\s*(.*)$", line)
+        if not m:
+            continue
+        name, body = m.group(1).strip(), m.group(2).strip()
+        # Skip un-filled scaffold lines like `_<actuals>_` or empty.
+        if not body or body.startswith("_<") or body == "_":
+            continue
+        not_done = "[not done]" in body.lower()
+        out[_norm_name(name)] = {
+            "status": "not_done" if not_done else "done",
+            "actual": body,
+        }
+    return out
 
 LOAD_LABEL = {1: "Deload", 2: "Moderate", 3: "Heavy", 4: "Max"}
 LOAD_REPS = {1: "12–15", 2: "9–11", 3: "6–8", 4: "2–5"}
@@ -130,6 +170,16 @@ HEAD_TMPL = """<!DOCTYPE html>
         .badge-conditioning {{ background: rgba(217, 119, 6, 0.08); color: #a16207; border-color: rgba(217,119,6,0.2); }}
         .badge-rest {{ background: rgba(26, 26, 26, 0.04); color: rgba(26,26,26,0.45); border-color: rgba(0,0,0,0.08); }}
         .badge-blocked {{ background: rgba(239, 68, 68, 0.06); color: #b91c1c; border-color: rgba(239,68,68,0.2); }}
+        .badge-logged {{ background: rgba(5, 150, 105, 0.1); color: #047857; border-color: rgba(5,150,105,0.25); }}
+        .badge-skipped {{ background: rgba(239, 68, 68, 0.08); color: #b91c1c; border-color: rgba(239,68,68,0.25); }}
+        .glass-card.logged {{ background: rgba(183, 196, 182, 0.18); border-color: rgba(5, 150, 105, 0.18); }}
+        .glass-card.logged:hover {{ background: rgba(183, 196, 182, 0.28); }}
+        .ex-done {{ position: relative; }}
+        .ex-done::before {{ content: "✓"; position: absolute; left: -0.9rem; top: 0.6rem; color: #059669; font-size: 0.7rem; font-weight: 700; }}
+        .ex-skipped {{ opacity: 0.55; }}
+        .ex-skipped .exname {{ text-decoration: line-through; }}
+        .actual-line {{ font-family: 'IBM Plex Mono', monospace; font-size: 0.7rem; color: #047857; margin-top: 0.15rem; }}
+        .actual-line-skipped {{ color: #b91c1c; }}
         .load-chip {{ font-family: 'IBM Plex Mono', monospace; text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.65rem; padding: 0.25rem 0.75rem; border-radius: 9999px; border: 1px solid rgba(0, 0, 0, 0.08); }}
         .load-1 {{ background: rgba(183, 196, 182, 0.3); color: #3a4a38; }}
         .load-2 {{ background: rgba(59, 130, 246, 0.08); color: #2563eb; }}
@@ -229,7 +279,7 @@ def _format_date_range(mon: dt.date, sun: dt.date) -> str:
     return f"{mon:%a %-d %b} &ndash; {sun:%a %-d %b}"
 
 
-def _render_exercise_row(x: dict) -> str:
+def _render_exercise_row(x: dict, log: dict | None = None) -> str:
     tier = x["tier"]
     tier_class = f"tier-{tier}"
     tier_label = TIER_LABEL.get(tier, tier.title())
@@ -256,15 +306,31 @@ def _render_exercise_row(x: dict) -> str:
     muscle_pill = (
         f'<span class="muscle-pill shrink-0 mt-0.5">{muscle_label}</span>' if muscle_label else ""
     )
-    return f"""                            <div class="exercise-row flex items-start gap-2 py-2">
+
+    row_extra = ""
+    actual_html = ""
+    if log:
+        entry = (log or {}).get(_norm_name(name))
+        if entry:
+            if entry["status"] == "not_done":
+                row_extra = " ex-skipped"
+                weight_cell = '<span class="text-red-700">skipped</span>'
+                actual_html = f'<div class="actual-line actual-line-skipped">[NOT DONE]</div>'
+            else:
+                row_extra = " ex-done"
+                weight_cell = '<span class="text-emerald-700">✓</span>'
+                actual_html = f'<div class="actual-line">{entry["actual"]}</div>'
+
+    return f"""                            <div class="exercise-row flex items-start gap-2 py-2{row_extra}">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill {tier_class}">{tier_label}</span>
                                     {muscle_pill}
                                 </div>
                                 <div class="flex-1 min-w-0 ml-1">
-                                    <div class="font-medium text-sm">{name}</div>
+                                    <div class="font-medium text-sm exname">{name}</div>
                                     <div class="text-xs text-th-charcoal/50 font-mono">{format_line}</div>
                                     {notes_html}
+                                    {actual_html}
                                 </div>
                                 <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">{weight_cell}</div>
                             </div>"""
@@ -279,8 +345,11 @@ def _render_training_day(entry: dict) -> str:
     location = entry.get("location", "home")
     loc_label = "Office gym" if location == "office" else "Home gym"
     minutes = entry.get("minutes", 60)
-    rows = [_render_exercise_row(x) for x in entry.get("exercises", [])]
+    log = _parse_log(entry["date"])
+    rows = [_render_exercise_row(x, log) for x in entry.get("exercises", [])]
     rows_html = "\n".join(rows)
+    card_extra = " logged" if log else ""
+    log_badge = '<span class="session-badge badge-logged">Logged</span>' if log else ""
     tail_html = ""
     if entry.get("cardio_tail"):
         tail_html = f"""
@@ -298,10 +367,11 @@ def _render_training_day(entry: dict) -> str:
                         <span class="font-display font-semibold text-sm">{DAY_NAMES[date.weekday()]}</span>
                         <span class="mono-label text-th-charcoal/40 text-[10px]">{date:%-d %b}</span>
                     </div>
-                    <div class="glass-card rounded-xl p-4 md:p-5">
+                    <div class="glass-card rounded-xl p-4 md:p-5{card_extra}">
                         <div class="flex items-center gap-2 mb-3 flex-wrap">
                             <span class="session-badge {badge_cls}">{session_label}</span>
                             <span class="mono-label text-th-charcoal/40">{loc_label} &middot; {minutes} min</span>
+                            {log_badge}
                         </div>
                         <div class="divide-y divide-black/5">
 {rows_html}
