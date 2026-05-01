@@ -58,6 +58,7 @@ def _parse_log(date_iso: str) -> dict:
             continue
         not_done = "[not done]" in body.lower()
         out[_norm_name(name)] = {
+            "name": name,
             "status": "not_done" if not_done else "done",
             "actual": body,
         }
@@ -336,6 +337,20 @@ def _render_exercise_row(x: dict, log: dict | None = None) -> str:
                             </div>"""
 
 
+def _render_extra_row(name: str, data: dict) -> str:
+    """Row for a log entry that wasn't in the scheduled list (added/rehab/sub)."""
+    return f"""                            <div class="exercise-row flex items-start gap-2 py-2 ex-done">
+                                <div class="flex flex-col gap-1 shrink-0 mt-0.5">
+                                    <span class="tier-pill tier-medium">Added</span>
+                                </div>
+                                <div class="flex-1 min-w-0 ml-1">
+                                    <div class="font-medium text-sm exname">{name}</div>
+                                    <div class="actual-line">{data["actual"]}</div>
+                                </div>
+                                <div class="text-xs text-th-charcoal/40 font-mono mt-0.5"><span class="text-emerald-700">✓</span></div>
+                            </div>"""
+
+
 def _render_training_day(entry: dict) -> str:
     date = _parse_date(entry["date"])
     session = entry["session"]
@@ -346,7 +361,12 @@ def _render_training_day(entry: dict) -> str:
     loc_label = "Office gym" if location == "office" else "Home gym"
     minutes = entry.get("minutes", 60)
     log = _parse_log(entry["date"])
+    scheduled_keys = {_norm_name(x["exercise"]) for x in entry.get("exercises", [])}
     rows = [_render_exercise_row(x, log) for x in entry.get("exercises", [])]
+    if log:
+        for key, data in log.items():
+            if key not in scheduled_keys:
+                rows.append(_render_extra_row(data["name"], data))
     rows_html = "\n".join(rows)
     card_extra = " logged" if log else ""
     log_badge = '<span class="session-badge badge-logged">Logged</span>' if log else ""
