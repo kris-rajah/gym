@@ -31,10 +31,32 @@ def _norm_name(s: str) -> str:
     return re.sub(r"[^a-z0-9]+", "", s.lower())
 
 
+_SUB_RE = re.compile(r"\(([^)]*?)sub for\s+([^)]+?)\s*\)", re.IGNORECASE)
+
+
+def _extract_sub(name: str) -> tuple[str, str | None]:
+    """Pull a `(sub for X)` clause out of a log bullet's exercise name.
+
+    Returns (cleaned_name, sub_for_or_None). Preserves any other qualifier
+    inside the parens, e.g. "Skull Crusher (Dumbbell, sub for EZ bar)" →
+    ("Skull Crusher (Dumbbell)", "EZ bar").
+    """
+    m = _SUB_RE.search(name)
+    if not m:
+        return name, None
+    sub_for = m.group(2).strip()
+    qualifier = m.group(1).strip().rstrip(",").strip()
+    if qualifier:
+        cleaned = _SUB_RE.sub(f"({qualifier})", name, count=1)
+    else:
+        cleaned = re.sub(r"\s*" + _SUB_RE.pattern, "", name, count=1, flags=re.IGNORECASE)
+    return cleaned.strip(), sub_for
+
+
 def _parse_log(date_iso: str) -> dict:
     """Read plan/logs/YYYY-MM-DD.md and return a per-exercise result dict.
 
-    Returns {normalised_name: {"status": "done"|"not_done", "actual": str, "raw": str}}.
+    Returns {raw_norm_name: {name, clean_name, sub_for, status, actual}}.
     Returns {} if the log file doesn't exist.
     """
     path = LOGS / f"{date_iso}.md"
@@ -53,16 +75,52 @@ def _parse_log(date_iso: str) -> dict:
         if not m:
             continue
         name, body = m.group(1).strip(), m.group(2).strip()
-        # Skip un-filled scaffold lines like `_<actuals>_` or empty.
         if not body or body.startswith("_<") or body == "_":
             continue
         not_done = "[not done]" in body.lower()
+        clean_name, sub_for = _extract_sub(name)
         out[_norm_name(name)] = {
             "name": name,
+            "clean_name": clean_name,
+            "sub_for": sub_for,
             "status": "not_done" if not_done else "done",
             "actual": body,
         }
     return out
+
+
+def _match_log_to_scheduled(log: dict, scheduled: list[dict]) -> tuple[dict, dict]:
+    """Map each log entry to a scheduled-exercise index when possible.
+
+    Returns (idx_to_entry, leftover_entries). Match passes:
+      1. Raw name exact-norm match.
+      2. Cleaned name (sub clause stripped) exact-norm or substring match.
+      3. `sub for X` clause exact-norm or substring match.
+    Each scheduled slot fills at most once; unmatched log entries become
+    "Added" rows.
+    """
+    sched_norms = [_norm_name(x["exercise"]) for x in scheduled]
+    idx_to_entry: dict[int, dict] = {}
+    used: set[str] = set()
+
+    def try_match(predicate) -> None:
+        for key, data in log.items():
+            if key in used:
+                continue
+            for i, sk in enumerate(sched_norms):
+                if i in idx_to_entry:
+                    continue
+                if predicate(key, data, sk):
+                    idx_to_entry[i] = data
+                    used.add(key)
+                    break
+
+    try_match(lambda k, d, sk: k == sk)
+    try_match(lambda k, d, sk: (cn := _norm_name(d["clean_name"])) and (cn == sk or cn in sk or sk in cn))
+    try_match(lambda k, d, sk: d.get("sub_for") and (sn := _norm_name(d["sub_for"])) and (sn == sk or sn in sk or sk in sn))
+
+    leftover = {k: v for k, v in log.items() if k not in used}
+    return idx_to_entry, leftover
 
 LOAD_LABEL = {1: "Deload", 2: "Moderate", 3: "Heavy", 4: "Max"}
 LOAD_REPS = {1: "12–15", 2: "9–11", 3: "6–8", 4: "2–5"}
@@ -181,6 +239,9 @@ HEAD_TMPL = """<!DOCTYPE html>
         .ex-skipped .exname {{ text-decoration: line-through; }}
         .actual-line {{ font-family: 'IBM Plex Mono', monospace; font-size: 0.7rem; color: #047857; margin-top: 0.15rem; }}
         .actual-line-skipped {{ color: #b91c1c; }}
+        .sub-line {{ display: inline-flex; align-items: center; gap: 0.25rem; font-family: 'IBM Plex Mono', monospace; font-size: 0.65rem; color: rgba(26,26,26,0.45); margin-top: 0.15rem; }}
+        .sub-line .material-symbols-outlined {{ font-size: 0.85rem; color: #2563eb; font-variation-settings: 'wght' 500; }}
+        .sub-line s {{ text-decoration: line-through; text-decoration-color: rgba(26,26,26,0.3); }}
         .load-chip {{ font-family: 'IBM Plex Mono', monospace; text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.65rem; padding: 0.25rem 0.75rem; border-radius: 9999px; border: 1px solid rgba(0, 0, 0, 0.08); }}
         .load-1 {{ background: rgba(183, 196, 182, 0.3); color: #3a4a38; }}
         .load-2 {{ background: rgba(59, 130, 246, 0.08); color: #2563eb; }}
@@ -280,13 +341,13 @@ def _format_date_range(mon: dt.date, sun: dt.date) -> str:
     return f"{mon:%a %-d %b} &ndash; {sun:%a %-d %b}"
 
 
-def _render_exercise_row(x: dict, log: dict | None = None) -> str:
+def _render_exercise_row(x: dict, entry: dict | None = None) -> str:
     tier = x["tier"]
     tier_class = f"tier-{tier}"
     tier_label = TIER_LABEL.get(tier, tier.title())
     muscle = x.get("primary_muscle", "")
     muscle_label = MUSCLE_LABEL.get(muscle, muscle.replace("_", " ").title()) if muscle else ""
-    name = x["exercise"]
+    sched_name = x["exercise"]
     warmup = x.get("warmup_sets") or 0
     working = x.get("working_sets", 3)
     reps = x.get("reps", "")
@@ -310,17 +371,25 @@ def _render_exercise_row(x: dict, log: dict | None = None) -> str:
 
     row_extra = ""
     actual_html = ""
-    if log:
-        entry = (log or {}).get(_norm_name(name))
-        if entry:
-            if entry["status"] == "not_done":
-                row_extra = " ex-skipped"
-                weight_cell = '<span class="text-red-700">skipped</span>'
-                actual_html = f'<div class="actual-line actual-line-skipped">[NOT DONE]</div>'
-            else:
-                row_extra = " ex-done"
-                weight_cell = '<span class="text-emerald-700">✓</span>'
-                actual_html = f'<div class="actual-line">{entry["actual"]}</div>'
+    display_name = sched_name
+    sub_html = ""
+    if entry:
+        if entry["status"] == "not_done":
+            row_extra = " ex-skipped"
+            weight_cell = '<span class="text-red-700">skipped</span>'
+            actual_html = '<div class="actual-line actual-line-skipped">[NOT DONE]</div>'
+        else:
+            row_extra = " ex-done"
+            weight_cell = '<span class="text-emerald-700">✓</span>'
+            actual_html = f'<div class="actual-line">{entry["actual"]}</div>'
+            if entry.get("sub_for"):
+                display_name = entry["clean_name"]
+                sub_html = (
+                    '<div class="sub-line">'
+                    '<span class="material-symbols-outlined">swap_horiz</span>'
+                    f'<span>sub for <s>{sched_name}</s></span>'
+                    '</div>'
+                )
 
     return f"""                            <div class="exercise-row flex items-start gap-2 py-2{row_extra}">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
@@ -328,9 +397,10 @@ def _render_exercise_row(x: dict, log: dict | None = None) -> str:
                                     {muscle_pill}
                                 </div>
                                 <div class="flex-1 min-w-0 ml-1">
-                                    <div class="font-medium text-sm exname">{name}</div>
+                                    <div class="font-medium text-sm exname">{display_name}</div>
                                     <div class="text-xs text-th-charcoal/50 font-mono">{format_line}</div>
                                     {notes_html}
+                                    {sub_html}
                                     {actual_html}
                                 </div>
                                 <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">{weight_cell}</div>
@@ -361,12 +431,11 @@ def _render_training_day(entry: dict) -> str:
     loc_label = "Office gym" if location == "office" else "Home gym"
     minutes = entry.get("minutes", 60)
     log = _parse_log(entry["date"])
-    scheduled_keys = {_norm_name(x["exercise"]) for x in entry.get("exercises", [])}
-    rows = [_render_exercise_row(x, log) for x in entry.get("exercises", [])]
-    if log:
-        for key, data in log.items():
-            if key not in scheduled_keys:
-                rows.append(_render_extra_row(data["name"], data))
+    exercises = entry.get("exercises", [])
+    idx_to_entry, leftover = _match_log_to_scheduled(log, exercises) if log else ({}, {})
+    rows = [_render_exercise_row(x, idx_to_entry.get(i)) for i, x in enumerate(exercises)]
+    for data in leftover.values():
+        rows.append(_render_extra_row(data["clean_name"], data))
     rows_html = "\n".join(rows)
     card_extra = " logged" if log else ""
     log_badge = '<span class="session-badge badge-logged">Logged</span>' if log else ""
