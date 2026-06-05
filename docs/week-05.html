@@ -55,6 +55,7 @@
         .badge-logged { background: rgba(5, 150, 105, 0.1); color: #047857; border-color: rgba(5,150,105,0.25); }
         .badge-skipped { background: rgba(239, 68, 68, 0.08); color: #b91c1c; border-color: rgba(239,68,68,0.25); }
         .glass-card.logged { background: rgba(183, 196, 182, 0.18); border-color: rgba(5, 150, 105, 0.18); }
+        .glass-card.missed { background: rgba(239, 68, 68, 0.035); border-color: rgba(239,68,68,0.18); border-style: dashed; }
         .glass-card.logged:hover { background: rgba(183, 196, 182, 0.28); }
         .ex-done { position: relative; }
         .ex-done::before { content: "✓"; position: absolute; left: -0.9rem; top: 0.6rem; color: #059669; font-size: 0.7rem; font-weight: 700; }
@@ -144,14 +145,14 @@
                         <span class="font-display font-semibold text-sm">Tuesday</span>
                         <span class="mono-label text-th-charcoal/40 text-[10px]">26 May</span>
                     </div>
-                    <div class="glass-card rounded-xl p-4 md:p-5">
+                    <div class="glass-card rounded-xl p-4 md:p-5 missed">
                         <div class="flex items-center gap-2 mb-3 flex-wrap">
                             <span class="session-badge badge-push">Push 2</span>
                             <span class="mono-label text-th-charcoal/40">Office gym &middot; 45 min</span>
-                            
+                            <span class="session-badge badge-skipped">Missed</span>
                         </div>
                         <div class="divide-y divide-black/5">
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-skipped">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-power">Power</span>
                                     <span class="muscle-pill shrink-0 mt-0.5">Full Body</span>
@@ -165,7 +166,7 @@
                                 </div>
                                 <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">_</div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-skipped">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-large">Compound</span>
                                     <span class="muscle-pill shrink-0 mt-0.5">Chest</span>
@@ -179,7 +180,7 @@
                                 </div>
                                 <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">_</div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-skipped">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-large">Compound</span>
                                     <span class="muscle-pill shrink-0 mt-0.5">Front Delt</span>
@@ -193,7 +194,7 @@
                                 </div>
                                 <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">_</div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-skipped">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-medium">Med</span>
                                     <span class="muscle-pill shrink-0 mt-0.5">Side Delt</span>
@@ -207,7 +208,7 @@
                                 </div>
                                 <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">_</div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-skipped">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-light">Light</span>
                                     <span class="muscle-pill shrink-0 mt-0.5">Chest</span>
@@ -221,7 +222,7 @@
                                 </div>
                                 <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">_</div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-skipped">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-light">Light</span>
                                     <span class="muscle-pill shrink-0 mt-0.5">Front Delt</span>
@@ -235,7 +236,7 @@
                                 </div>
                                 <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">_</div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-skipped">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-light">Light</span>
                                     <span class="muscle-pill shrink-0 mt-0.5">Triceps</span>
@@ -262,14 +263,14 @@
                         <span class="font-display font-semibold text-sm">Wednesday</span>
                         <span class="mono-label text-th-charcoal/40 text-[10px]">27 May</span>
                     </div>
-                    <div class="glass-card rounded-xl p-4 md:p-5">
+                    <div class="glass-card rounded-xl p-4 md:p-5 missed">
                         <div class="flex items-center gap-2 mb-3 flex-wrap">
                             <span class="session-badge badge-pull">Pull 2</span>
                             <span class="mono-label text-th-charcoal/40">Home gym &middot; 60 min</span>
-                            
+                            <span class="session-badge badge-skipped">Missed</span>
                         </div>
                         <div class="divide-y divide-black/5">
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-skipped">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-power">Power</span>
                                     <span class="muscle-pill shrink-0 mt-0.5">Full Body</span>
@@ -283,7 +284,7 @@
                                 </div>
                                 <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">_</div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-skipped">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-medium">Med</span>
                                     <span class="muscle-pill shrink-0 mt-0.5">Lats</span>
@@ -297,7 +298,7 @@
                                 </div>
                                 <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">_</div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-skipped">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-medium">Med</span>
                                     <span class="muscle-pill shrink-0 mt-0.5">Lats</span>
@@ -311,7 +312,7 @@
                                 </div>
                                 <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">_</div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-skipped">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-medium">Med</span>
                                     <span class="muscle-pill shrink-0 mt-0.5">Biceps</span>
@@ -325,7 +326,7 @@
                                 </div>
                                 <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">_</div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-skipped">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-light">Light</span>
                                     <span class="muscle-pill shrink-0 mt-0.5">Lats</span>
@@ -339,7 +340,7 @@
                                 </div>
                                 <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">_</div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-skipped">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-light">Light</span>
                                     <span class="muscle-pill shrink-0 mt-0.5">Lats</span>
@@ -353,7 +354,7 @@
                                 </div>
                                 <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">_</div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-skipped">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-light">Light</span>
                                     <span class="muscle-pill shrink-0 mt-0.5">Biceps</span>
@@ -367,7 +368,7 @@
                                 </div>
                                 <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">_</div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-skipped">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-light">Light</span>
                                     <span class="muscle-pill shrink-0 mt-0.5">Biceps</span>
@@ -381,7 +382,7 @@
                                 </div>
                                 <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">_</div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-skipped">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-light">Light</span>
                                     <span class="muscle-pill shrink-0 mt-0.5">Traps</span>
@@ -422,96 +423,96 @@
                         <span class="font-display font-semibold text-sm">Friday</span>
                         <span class="mono-label text-th-charcoal/40 text-[10px]">29 May</span>
                     </div>
-                    <div class="glass-card rounded-xl p-4 md:p-5">
+                    <div class="glass-card rounded-xl p-4 md:p-5 logged">
                         <div class="flex items-center gap-2 mb-3 flex-wrap">
                             <span class="session-badge badge-legs">Legs 1</span>
                             <span class="mono-label text-th-charcoal/40">Home gym &middot; 60 min</span>
-                            
+                            <span class="session-badge badge-logged">Logged</span>
                         </div>
                         <div class="divide-y divide-black/5">
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-done">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-large">Compound</span>
                                     <span class="muscle-pill shrink-0 mt-0.5">Quads</span>
                                 </div>
                                 <div class="flex-1 min-w-0 ml-1">
                                     <div class="font-medium text-sm exname">Leg Press</div>
-                                    <div class="text-xs text-th-charcoal/50 font-mono">2&nbsp;wu + 4&nbsp;&times;&nbsp;8-10 &middot; 90s rest</div>
-                                    <div class="text-xs text-th-charcoal/40 mt-0.5 italic">Primary quad lift today (replacing Back Squat). Feet-low position per knee rehab. Warm light, build to a top working set across 4 × 8-10. Stop a rep or two short of failure — first session back.</div>
+                                    <div class="text-xs text-th-charcoal/50 font-mono">2&nbsp;wu + 3&nbsp;&times;&nbsp;8-12 &middot; 90s rest</div>
+                                    <div class="text-xs text-th-charcoal/40 mt-0.5 italic">Primary quad lift (replaced Back Squat). Feet-low per knee rehab. Top set 200 x 12 - PR.</div>
                                     
-                                    
+                                    <div class="actual-line">3 sets, top 200 kg × 12</div>
                                 </div>
-                                <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">_</div>
+                                <div class="text-xs text-th-charcoal/40 font-mono mt-0.5"><span class="text-emerald-700">✓</span></div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-done">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-medium">Med</span>
                                     <span class="muscle-pill shrink-0 mt-0.5">Quads</span>
                                 </div>
                                 <div class="flex-1 min-w-0 ml-1">
-                                    <div class="font-medium text-sm exname">Leg Extension</div>
-                                    <div class="text-xs text-th-charcoal/50 font-mono">1&nbsp;wu + 3&nbsp;&times;&nbsp;10-12 &middot; 60s rest</div>
-                                    <div class="text-xs text-th-charcoal/40 mt-0.5 italic">Bilateral. Controlled tempo, full range. Heavier than usual since it's covering the medium quad slot too.</div>
+                                    <div class="font-medium text-sm exname">Leg Extension (bilateral)</div>
+                                    <div class="text-xs text-th-charcoal/50 font-mono">1&nbsp;wu + 3&nbsp;&times;&nbsp;12-20 &middot; 60s rest</div>
+                                    <div class="text-xs text-th-charcoal/40 mt-0.5 italic">Top set 60 x 20.</div>
                                     
-                                    
+                                    <div class="actual-line">3 sets, top 60 kg × 20</div>
                                 </div>
-                                <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">_</div>
+                                <div class="text-xs text-th-charcoal/40 font-mono mt-0.5"><span class="text-emerald-700">✓</span></div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-done">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-medium">Med</span>
                                     <span class="muscle-pill shrink-0 mt-0.5">Quads</span>
                                 </div>
                                 <div class="flex-1 min-w-0 ml-1">
                                     <div class="font-medium text-sm exname">Unilateral Leg Extension</div>
-                                    <div class="text-xs text-th-charcoal/50 font-mono">3&nbsp;&times;&nbsp;12-15 &middot; 60s rest</div>
-                                    <div class="text-xs text-th-charcoal/40 mt-0.5 italic">Quad cleared 5/28. Side-to-side balance work.</div>
+                                    <div class="text-xs text-th-charcoal/50 font-mono">3&nbsp;&times;&nbsp;10-12 &middot; 60s rest</div>
+                                    <div class="text-xs text-th-charcoal/40 mt-0.5 italic">Per-leg balance. Quad cleared 5/28.</div>
                                     
-                                    
+                                    <div class="actual-line">3 sets, top 35 kg × 10 (per leg)</div>
                                 </div>
-                                <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">_</div>
+                                <div class="text-xs text-th-charcoal/40 font-mono mt-0.5"><span class="text-emerald-700">✓</span></div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-done">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-light">Light</span>
                                     <span class="muscle-pill shrink-0 mt-0.5">Hams</span>
                                 </div>
                                 <div class="flex-1 min-w-0 ml-1">
                                     <div class="font-medium text-sm exname">Lying Leg Curl</div>
-                                    <div class="text-xs text-th-charcoal/50 font-mono">3&nbsp;&times;&nbsp;10-12 &middot; 60s rest</div>
-                                    <div class="text-xs text-th-charcoal/40 mt-0.5 italic">Replaces Standing Hamstring Curl (lying = no hip-flexor stabilising). 5/17 was 70×8×3 — deload to 55 kg × 10-12.</div>
+                                    <div class="text-xs text-th-charcoal/50 font-mono">4&nbsp;&times;&nbsp;10-12 &middot; 60s rest</div>
+                                    <div class="text-xs text-th-charcoal/40 mt-0.5 italic">Held 55 x 12.</div>
                                     
-                                    
+                                    <div class="actual-line">4 sets, top 55 kg × 12</div>
                                 </div>
-                                <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">55 kg</div>
+                                <div class="text-xs text-th-charcoal/40 font-mono mt-0.5"><span class="text-emerald-700">✓</span></div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-done">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-light">Light</span>
                                     <span class="muscle-pill shrink-0 mt-0.5">Calves</span>
                                 </div>
                                 <div class="flex-1 min-w-0 ml-1">
-                                    <div class="font-medium text-sm exname">45-Degree Calf Press</div>
+                                    <div class="font-medium text-sm exname">Calf Press on Leg Press</div>
                                     <div class="text-xs text-th-charcoal/50 font-mono">3&nbsp;&times;&nbsp;12-15 &middot; 45s rest</div>
-                                    <div class="text-xs text-th-charcoal/40 mt-0.5 italic">Quad cleared 5/28 — Leg Press machine OK.</div>
                                     
                                     
+                                    <div class="actual-line">3 sets, top 200 kg × 12</div>
                                 </div>
-                                <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">_</div>
+                                <div class="text-xs text-th-charcoal/40 font-mono mt-0.5"><span class="text-emerald-700">✓</span></div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-done">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-light">Light</span>
                                     <span class="muscle-pill shrink-0 mt-0.5">Calves</span>
                                 </div>
                                 <div class="flex-1 min-w-0 ml-1">
-                                    <div class="font-medium text-sm exname">Seated Calf Raise</div>
-                                    <div class="text-xs text-th-charcoal/50 font-mono">3&nbsp;&times;&nbsp;8-10 &middot; 45s rest</div>
-                                    <div class="text-xs text-th-charcoal/40 mt-0.5 italic">5/17 held 60×7-8. Deload 50 kg × 8-10.</div>
+                                    <div class="font-medium text-sm exname">Tibialis Raise</div>
+                                    <div class="text-xs text-th-charcoal/50 font-mono">2&nbsp;&times;&nbsp;5-12 &middot; 45s rest</div>
+                                    <div class="text-xs text-th-charcoal/40 mt-0.5 italic">Knee-rehab accessory. +12 x 5.</div>
                                     
-                                    
+                                    <div class="actual-line">2 sets, +12 kg × 5</div>
                                 </div>
-                                <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">50 kg</div>
+                                <div class="text-xs text-th-charcoal/40 font-mono mt-0.5"><span class="text-emerald-700">✓</span></div>
                             </div>
                         </div>
                     </div>
@@ -519,117 +520,89 @@
             </div>
             <div class="relative flex gap-3 md:gap-8">
                 <div class="relative z-10 w-8 md:w-14 shrink-0 flex flex-col items-center">
-                    <span class="w-3 h-3 rounded-full bg-th-accent"></span>
+                    <span class="w-3 h-3 rounded-full bg-blue-500"></span>
                 </div>
                 <div class="pb-2 -mt-1 flex-1 min-w-0">
                     <div class="flex items-baseline gap-3 mb-1 flex-wrap">
                         <span class="font-display font-semibold text-sm">Saturday</span>
                         <span class="mono-label text-th-charcoal/40 text-[10px]">30 May</span>
                     </div>
-                    <div class="glass-card rounded-xl p-4 md:p-5">
+                    <div class="glass-card rounded-xl p-4 md:p-5 logged">
                         <div class="flex items-center gap-2 mb-3 flex-wrap">
-                            <span class="session-badge badge-legs">Legs 2</span>
+                            <span class="session-badge badge-push">Push 2</span>
                             <span class="mono-label text-th-charcoal/40">Home gym &middot; 60 min</span>
-                            
+                            <span class="session-badge badge-logged">Logged</span>
                         </div>
                         <div class="divide-y divide-black/5">
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-done">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-large">Compound</span>
-                                    <span class="muscle-pill shrink-0 mt-0.5">Hams</span>
+                                    <span class="muscle-pill shrink-0 mt-0.5">Chest</span>
                                 </div>
                                 <div class="flex-1 min-w-0 ml-1">
-                                    <div class="font-medium text-sm exname">Stiff-Legged Deadlift</div>
-                                    <div class="text-xs text-th-charcoal/50 font-mono">2&nbsp;wu + 3&nbsp;&times;&nbsp;10-12 &middot; 90s rest</div>
-                                    <div class="text-xs text-th-charcoal/40 mt-0.5 italic">Deload from 5/17's 100×6×3 → 70 × 10-12 with straps. Above-knee start, slow un-rack — hip flexor caution.</div>
+                                    <div class="font-medium text-sm exname">Bench Press</div>
+                                    <div class="text-xs text-th-charcoal/50 font-mono">2&nbsp;wu + 4&nbsp;&times;&nbsp;8-10 &middot; 120s rest</div>
+                                    <div class="text-xs text-th-charcoal/40 mt-0.5 italic">80 x 10 across 4 sets, clean. >=2 min rest.</div>
                                     
-                                    
+                                    <div class="actual-line">4 sets, top 80 kg × 10</div>
                                 </div>
-                                <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">70 kg</div>
+                                <div class="text-xs text-th-charcoal/40 font-mono mt-0.5"><span class="text-emerald-700">✓</span></div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-done">
+                                <div class="flex flex-col gap-1 shrink-0 mt-0.5">
+                                    <span class="tier-pill tier-large">Compound</span>
+                                    <span class="muscle-pill shrink-0 mt-0.5">Front Delt</span>
+                                </div>
+                                <div class="flex-1 min-w-0 ml-1">
+                                    <div class="font-medium text-sm exname">Overhead Press</div>
+                                    <div class="text-xs text-th-charcoal/50 font-mono">2&nbsp;wu + 4&nbsp;&times;&nbsp;8-10 &middot; 90s rest</div>
+                                    <div class="text-xs text-th-charcoal/40 mt-0.5 italic">40 x 10 across 4.</div>
+                                    
+                                    <div class="actual-line">4 sets, top 40 kg × 10</div>
+                                </div>
+                                <div class="text-xs text-th-charcoal/40 font-mono mt-0.5"><span class="text-emerald-700">✓</span></div>
+                            </div>
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-done">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-medium">Med</span>
-                                    <span class="muscle-pill shrink-0 mt-0.5">Hams</span>
+                                    <span class="muscle-pill shrink-0 mt-0.5">Chest</span>
                                 </div>
                                 <div class="flex-1 min-w-0 ml-1">
-                                    <div class="font-medium text-sm exname">Machine Stiff-Leg Deadlift</div>
-                                    <div class="text-xs text-th-charcoal/50 font-mono">1&nbsp;wu + 3&nbsp;&times;&nbsp;12-15 &middot; 60s rest</div>
-                                    <div class="text-xs text-th-charcoal/40 mt-0.5 italic">Safer hinge — no un-rack stress on hip flexor.</div>
+                                    <div class="font-medium text-sm exname">Cable Fly</div>
+                                    <div class="text-xs text-th-charcoal/50 font-mono">1&nbsp;wu + 4&nbsp;&times;&nbsp;12-15 &middot; 60s rest</div>
+                                    <div class="text-xs text-th-charcoal/40 mt-0.5 italic">30 x 12.</div>
                                     
-                                    
+                                    <div class="actual-line">4 sets, top 30 kg × 12</div>
                                 </div>
-                                <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">_</div>
+                                <div class="text-xs text-th-charcoal/40 font-mono mt-0.5"><span class="text-emerald-700">✓</span></div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
-                                <div class="flex flex-col gap-1 shrink-0 mt-0.5">
-                                    <span class="tier-pill tier-medium">Med</span>
-                                    <span class="muscle-pill shrink-0 mt-0.5">Glutes</span>
-                                </div>
-                                <div class="flex-1 min-w-0 ml-1">
-                                    <div class="font-medium text-sm exname">Barbell Hip Thrust</div>
-                                    <div class="text-xs text-th-charcoal/50 font-mono">1&nbsp;wu + 3&nbsp;&times;&nbsp;12-15 &middot; 60s rest</div>
-                                    <div class="text-xs text-th-charcoal/40 mt-0.5 italic">Deload return. 5/24 was planned at 85 (skipped) — start 80 × 12-15.</div>
-                                    
-                                    
-                                </div>
-                                <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">80 kg</div>
-                            </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-done">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-light">Light</span>
-                                    <span class="muscle-pill shrink-0 mt-0.5">Hams</span>
+                                    <span class="muscle-pill shrink-0 mt-0.5">Side Delt</span>
                                 </div>
                                 <div class="flex-1 min-w-0 ml-1">
-                                    <div class="font-medium text-sm exname">Lying Leg Curl</div>
-                                    <div class="text-xs text-th-charcoal/50 font-mono">3&nbsp;&times;&nbsp;10-12 &middot; 60s rest</div>
-                                    <div class="text-xs text-th-charcoal/40 mt-0.5 italic">Swapped from Standing Hamstring Curl (lying = no hip-flexor stabilising). Deload from 70 → 55.</div>
-                                    
-                                    
-                                </div>
-                                <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">55 kg</div>
-                            </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
-                                <div class="flex flex-col gap-1 shrink-0 mt-0.5">
-                                    <span class="tier-pill tier-light">Light</span>
-                                    <span class="muscle-pill shrink-0 mt-0.5">Calves</span>
-                                </div>
-                                <div class="flex-1 min-w-0 ml-1">
-                                    <div class="font-medium text-sm exname">Standing Calf Raise</div>
+                                    <div class="font-medium text-sm exname">Lateral Raise (Dumbbell)</div>
                                     <div class="text-xs text-th-charcoal/50 font-mono">3&nbsp;&times;&nbsp;12-15 &middot; 45s rest</div>
+                                    <div class="text-xs text-th-charcoal/40 mt-0.5 italic">10 x 15.</div>
                                     
-                                    
-                                    
+                                    <div class="actual-line">3 sets, top 10 kg × 15</div>
                                 </div>
-                                <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">_</div>
+                                <div class="text-xs text-th-charcoal/40 font-mono mt-0.5"><span class="text-emerald-700">✓</span></div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-done">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-light">Light</span>
-                                    <span class="muscle-pill shrink-0 mt-0.5">Calves</span>
+                                    <span class="muscle-pill shrink-0 mt-0.5">Front Delt</span>
                                 </div>
                                 <div class="flex-1 min-w-0 ml-1">
-                                    <div class="font-medium text-sm exname">Seated Calf Raise</div>
-                                    <div class="text-xs text-th-charcoal/50 font-mono">3&nbsp;&times;&nbsp;8-10 &middot; 45s rest</div>
-                                    <div class="text-xs text-th-charcoal/40 mt-0.5 italic">Deload from 60 → 50 (soleus-biased).</div>
-                                    
-                                    
-                                </div>
-                                <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">50 kg</div>
-                            </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
-                                <div class="flex flex-col gap-1 shrink-0 mt-0.5">
-                                    <span class="tier-pill tier-light">Light</span>
-                                    <span class="muscle-pill shrink-0 mt-0.5">Quads</span>
-                                </div>
-                                <div class="flex-1 min-w-0 ml-1">
-                                    <div class="font-medium text-sm exname">Unilateral Leg Extension</div>
+                                    <div class="font-medium text-sm exname">Front Raise (Cable)</div>
                                     <div class="text-xs text-th-charcoal/50 font-mono">3&nbsp;&times;&nbsp;12-15 &middot; 45s rest</div>
-                                    <div class="text-xs text-th-charcoal/40 mt-0.5 italic">Quad cleared 5/28 — restored. Light, controlled.</div>
+                                    <div class="text-xs text-th-charcoal/40 mt-0.5 italic">10 x 15.</div>
                                     
-                                    
+                                    <div class="actual-line">3 sets, top 10 kg × 15</div>
                                 </div>
-                                <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">_</div>
+                                <div class="text-xs text-th-charcoal/40 font-mono mt-0.5"><span class="text-emerald-700">✓</span></div>
                             </div>
                         </div>
                     </div>
@@ -637,123 +610,104 @@
             </div>
             <div class="relative flex gap-3 md:gap-8">
                 <div class="relative z-10 w-8 md:w-14 shrink-0 flex flex-col items-center">
-                    <span class="w-3 h-3 rounded-full bg-amber-600"></span>
+                    <span class="w-3 h-3 rounded-full bg-th-charcoal/30"></span>
                 </div>
                 <div class="pb-2 -mt-1 flex-1 min-w-0">
                     <div class="flex items-baseline gap-3 mb-1 flex-wrap">
                         <span class="font-display font-semibold text-sm">Sunday</span>
                         <span class="mono-label text-th-charcoal/40 text-[10px]">31 May</span>
                     </div>
-                    <div class="glass-card rounded-xl p-4 md:p-5">
+                    <div class="glass-card rounded-xl p-4 md:p-5 logged">
                         <div class="flex items-center gap-2 mb-3 flex-wrap">
-                            <span class="session-badge badge-conditioning">Conditioning</span>
+                            <span class="session-badge badge-rest">Arms</span>
                             <span class="mono-label text-th-charcoal/40">Home gym &middot; 60 min</span>
-                            
+                            <span class="session-badge badge-logged">Logged</span>
                         </div>
                         <div class="divide-y divide-black/5">
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-done">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
-                                    <span class="tier-pill tier-power">Power</span>
-                                    <span class="muscle-pill shrink-0 mt-0.5">Full Body</span>
+                                    <span class="tier-pill tier-medium">Med</span>
+                                    <span class="muscle-pill shrink-0 mt-0.5">Biceps</span>
                                 </div>
                                 <div class="flex-1 min-w-0 ml-1">
-                                    <div class="font-medium text-sm exname">Medicine Ball Slam</div>
-                                    <div class="text-xs text-th-charcoal/50 font-mono">1&nbsp;wu + 3&nbsp;&times;&nbsp;3-5 &middot; 180s rest</div>
-                                    <div class="text-xs text-th-charcoal/40 mt-0.5 italic">power + conditioning — done fresh, CNS primer</div>
+                                    <div class="font-medium text-sm exname">Barbell Curl</div>
+                                    <div class="text-xs text-th-charcoal/50 font-mono">1&nbsp;wu + 4&nbsp;&times;&nbsp;8-10 &middot; 60s rest</div>
+                                    <div class="text-xs text-th-charcoal/40 mt-0.5 italic">40 x 10.</div>
                                     
-                                    
+                                    <div class="actual-line">4 sets, top 40 kg × 10</div>
                                 </div>
-                                <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">_</div>
+                                <div class="text-xs text-th-charcoal/40 font-mono mt-0.5"><span class="text-emerald-700">✓</span></div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-done">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-light">Light</span>
-                                    <span class="muscle-pill shrink-0 mt-0.5">Abs</span>
+                                    <span class="muscle-pill shrink-0 mt-0.5">Biceps</span>
                                 </div>
                                 <div class="flex-1 min-w-0 ml-1">
-                                    <div class="font-medium text-sm exname">Plank</div>
-                                    <div class="text-xs text-th-charcoal/50 font-mono">3&nbsp;&times;&nbsp;30-45s hold &middot; 45s rest</div>
-                                    <div class="text-xs text-th-charcoal/40 mt-0.5 italic">Swapped from Sit-Up (hip-flexor unsafe — strained 5/22).</div>
+                                    <div class="font-medium text-sm exname">Reverse Curl (Barbell)</div>
+                                    <div class="text-xs text-th-charcoal/50 font-mono">3&nbsp;&times;&nbsp;10-12 &middot; 45s rest</div>
+                                    <div class="text-xs text-th-charcoal/40 mt-0.5 italic">30 x 10. Brachialis/forearm bias.</div>
                                     
-                                    
+                                    <div class="actual-line">3 sets, top 30 kg × 10</div>
                                 </div>
-                                <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">_</div>
+                                <div class="text-xs text-th-charcoal/40 font-mono mt-0.5"><span class="text-emerald-700">✓</span></div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-done">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-light">Light</span>
-                                    <span class="muscle-pill shrink-0 mt-0.5">Abs</span>
+                                    <span class="muscle-pill shrink-0 mt-0.5">Biceps</span>
                                 </div>
                                 <div class="flex-1 min-w-0 ml-1">
-                                    <div class="font-medium text-sm exname">Cable Crunch</div>
+                                    <div class="font-medium text-sm exname">Preacher Curl (Dumbbell)</div>
                                     <div class="text-xs text-th-charcoal/50 font-mono">3&nbsp;&times;&nbsp;12-15 &middot; 45s rest</div>
-                                    <div class="text-xs text-th-charcoal/40 mt-0.5 italic">Loaded ab work — spinal flexion only, low hip flexor. 5/4 hit 85 — deload to 70.</div>
+                                    <div class="text-xs text-th-charcoal/40 mt-0.5 italic">12 x 12.</div>
                                     
-                                    
+                                    <div class="actual-line">3 sets, top 12 kg × 12</div>
                                 </div>
-                                <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">70 kg</div>
+                                <div class="text-xs text-th-charcoal/40 font-mono mt-0.5"><span class="text-emerald-700">✓</span></div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-done">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
-                                    <span class="tier-pill tier-light">Light</span>
-                                    <span class="muscle-pill shrink-0 mt-0.5">Abs</span>
+                                    <span class="tier-pill tier-medium">Med</span>
+                                    <span class="muscle-pill shrink-0 mt-0.5">Triceps</span>
                                 </div>
                                 <div class="flex-1 min-w-0 ml-1">
-                                    <div class="font-medium text-sm exname">Dead Bug</div>
-                                    <div class="text-xs text-th-charcoal/50 font-mono">3&nbsp;&times;&nbsp;10/side &middot; 45s rest</div>
-                                    <div class="text-xs text-th-charcoal/40 mt-0.5 italic">Swapped from Incline Sit-Up (hip-flexor unsafe). Anti-extension + controlled hip flexion — safe rehab pattern.</div>
+                                    <div class="font-medium text-sm exname">Triceps Pushdown</div>
+                                    <div class="text-xs text-th-charcoal/50 font-mono">1&nbsp;wu + 4&nbsp;&times;&nbsp;8-10 &middot; 60s rest</div>
+                                    <div class="text-xs text-th-charcoal/40 mt-0.5 italic">80 x 10.</div>
                                     
-                                    
+                                    <div class="actual-line">4 sets, top 80 kg × 10</div>
                                 </div>
-                                <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">_</div>
+                                <div class="text-xs text-th-charcoal/40 font-mono mt-0.5"><span class="text-emerald-700">✓</span></div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-done">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-light">Light</span>
-                                    <span class="muscle-pill shrink-0 mt-0.5">Obliques</span>
+                                    <span class="muscle-pill shrink-0 mt-0.5">Triceps</span>
                                 </div>
                                 <div class="flex-1 min-w-0 ml-1">
-                                    <div class="font-medium text-sm exname">Crossover Crunch</div>
+                                    <div class="font-medium text-sm exname">Triceps Extension (cable)</div>
                                     <div class="text-xs text-th-charcoal/50 font-mono">3&nbsp;&times;&nbsp;12-15 &middot; 45s rest</div>
+                                    <div class="text-xs text-th-charcoal/40 mt-0.5 italic">40 x 12.</div>
                                     
-                                    
-                                    
+                                    <div class="actual-line">3 sets, top 40 kg × 12</div>
                                 </div>
-                                <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">_</div>
+                                <div class="text-xs text-th-charcoal/40 font-mono mt-0.5"><span class="text-emerald-700">✓</span></div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-done">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-light">Light</span>
-                                    <span class="muscle-pill shrink-0 mt-0.5">Obliques</span>
+                                    <span class="muscle-pill shrink-0 mt-0.5">Triceps</span>
                                 </div>
                                 <div class="flex-1 min-w-0 ml-1">
-                                    <div class="font-medium text-sm exname">Standing Twist</div>
-                                    <div class="text-xs text-th-charcoal/50 font-mono">3&nbsp;&times;&nbsp;12-15 &middot; 45s rest</div>
-                                    <div class="text-xs text-th-charcoal/40 mt-0.5 italic">high-rep oblique finisher</div>
+                                    <div class="font-medium text-sm exname">Triceps Extension (dumbbell)</div>
+                                    <div class="text-xs text-th-charcoal/50 font-mono">3&nbsp;&times;&nbsp;10-12 &middot; 45s rest</div>
+                                    <div class="text-xs text-th-charcoal/40 mt-0.5 italic">20 x 10.</div>
                                     
-                                    
+                                    <div class="actual-line">3 sets, top 20 kg × 10</div>
                                 </div>
-                                <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">_</div>
+                                <div class="text-xs text-th-charcoal/40 font-mono mt-0.5"><span class="text-emerald-700">✓</span></div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
-                                <div class="flex flex-col gap-1 shrink-0 mt-0.5">
-                                    <span class="tier-pill tier-conditioning">Cond</span>
-                                    <span class="muscle-pill shrink-0 mt-0.5">Full Body</span>
-                                </div>
-                                <div class="flex-1 min-w-0 ml-1">
-                                    <div class="font-medium text-sm exname">Stationary Bike</div>
-                                    <div class="text-xs text-th-charcoal/50 font-mono">1&nbsp;&times;&nbsp;5-10 min or 4 x 30s on / 30s off &middot; 30s rest</div>
-                                    <div class="text-xs text-th-charcoal/40 mt-0.5 italic">time-based</div>
-                                    
-                                    
-                                </div>
-                                <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">_</div>
-                            </div>
-                        </div>
-                        <div class="mt-4 pt-3 border-t border-black/5 flex items-center gap-2 text-xs text-th-charcoal/60">
-                            <span class="material-symbols-outlined text-sm text-amber-600">directions_run</span>
-                            <span class="font-medium">Cardio tail:</span>
-                            <span>20 min steady state (Treadmill)</span>
                         </div>
                     </div>
                 </div>

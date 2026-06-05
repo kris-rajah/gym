@@ -232,6 +232,7 @@ HEAD_TMPL = """<!DOCTYPE html>
         .badge-logged {{ background: rgba(5, 150, 105, 0.1); color: #047857; border-color: rgba(5,150,105,0.25); }}
         .badge-skipped {{ background: rgba(239, 68, 68, 0.08); color: #b91c1c; border-color: rgba(239,68,68,0.25); }}
         .glass-card.logged {{ background: rgba(183, 196, 182, 0.18); border-color: rgba(5, 150, 105, 0.18); }}
+        .glass-card.missed {{ background: rgba(239, 68, 68, 0.035); border-color: rgba(239,68,68,0.18); border-style: dashed; }}
         .glass-card.logged:hover {{ background: rgba(183, 196, 182, 0.28); }}
         .ex-done {{ position: relative; }}
         .ex-done::before {{ content: "✓"; position: absolute; left: -0.9rem; top: 0.6rem; color: #059669; font-size: 0.7rem; font-weight: 700; }}
@@ -341,7 +342,7 @@ def _format_date_range(mon: dt.date, sun: dt.date) -> str:
     return f"{mon:%a %-d %b} &ndash; {sun:%a %-d %b}"
 
 
-def _render_exercise_row(x: dict, entry: dict | None = None) -> str:
+def _render_exercise_row(x: dict, entry: dict | None = None, missed: bool = False) -> str:
     tier = x["tier"]
     tier_class = f"tier-{tier}"
     tier_label = TIER_LABEL.get(tier, tier.title())
@@ -390,6 +391,8 @@ def _render_exercise_row(x: dict, entry: dict | None = None) -> str:
                     f'<span>sub for <s>{sched_name}</s></span>'
                     '</div>'
                 )
+    elif missed:
+        row_extra = " ex-skipped"
 
     return f"""                            <div class="exercise-row flex items-start gap-2 py-2{row_extra}">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
@@ -432,13 +435,22 @@ def _render_training_day(entry: dict) -> str:
     minutes = entry.get("minutes", 60)
     log = _parse_log(entry["date"])
     exercises = entry.get("exercises", [])
-    idx_to_entry, leftover = _match_log_to_scheduled(log, exercises) if log else ({}, {})
-    rows = [_render_exercise_row(x, idx_to_entry.get(i)) for i, x in enumerate(exercises)]
-    for data in leftover.values():
-        rows.append(_render_extra_row(data["clean_name"], data))
+    missed = bool(entry.get("missed")) and not log
+    if missed:
+        rows = [_render_exercise_row(x, None, missed=True) for x in exercises]
+    else:
+        idx_to_entry, leftover = _match_log_to_scheduled(log, exercises) if log else ({}, {})
+        rows = [_render_exercise_row(x, idx_to_entry.get(i)) for i, x in enumerate(exercises)]
+        for data in leftover.values():
+            rows.append(_render_extra_row(data["clean_name"], data))
     rows_html = "\n".join(rows)
-    card_extra = " logged" if log else ""
+    card_extra = " logged" if log else (" missed" if missed else "")
     log_badge = '<span class="session-badge badge-logged">Logged</span>' if log else ""
+    if missed:
+        log_badge = '<span class="session-badge badge-skipped">Missed</span>'
+    # Day-level missed reasons are personal (often health) — kept in plan/ only,
+    # never published to the public site. See .gitignore ("scrubbed reasons").
+    missed_note = ""
     tail_html = ""
     if entry.get("cardio_tail"):
         tail_html = f"""
@@ -462,7 +474,7 @@ def _render_training_day(entry: dict) -> str:
                             <span class="mono-label text-th-charcoal/40">{loc_label} &middot; {minutes} min</span>
                             {log_badge}
                         </div>
-                        <div class="divide-y divide-black/5">
+                        {missed_note}<div class="divide-y divide-black/5">
 {rows_html}
                         </div>{tail_html}
                     </div>

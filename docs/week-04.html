@@ -55,6 +55,7 @@
         .badge-logged { background: rgba(5, 150, 105, 0.1); color: #047857; border-color: rgba(5,150,105,0.25); }
         .badge-skipped { background: rgba(239, 68, 68, 0.08); color: #b91c1c; border-color: rgba(239,68,68,0.25); }
         .glass-card.logged { background: rgba(183, 196, 182, 0.18); border-color: rgba(5, 150, 105, 0.18); }
+        .glass-card.missed { background: rgba(239, 68, 68, 0.035); border-color: rgba(239,68,68,0.18); border-style: dashed; }
         .glass-card.logged:hover { background: rgba(183, 196, 182, 0.28); }
         .ex-done { position: relative; }
         .ex-done::before { content: "✓"; position: absolute; left: -0.9rem; top: 0.6rem; color: #059669; font-size: 0.7rem; font-weight: 700; }
@@ -410,14 +411,14 @@
                         <span class="font-display font-semibold text-sm">Saturday</span>
                         <span class="mono-label text-th-charcoal/40 text-[10px]">23 May</span>
                     </div>
-                    <div class="glass-card rounded-xl p-4 md:p-5">
+                    <div class="glass-card rounded-xl p-4 md:p-5 missed">
                         <div class="flex items-center gap-2 mb-3 flex-wrap">
                             <span class="session-badge badge-rest">Recovery_Upper</span>
                             <span class="mono-label text-th-charcoal/40">Home gym &middot; 45 min</span>
-                            
+                            <span class="session-badge badge-skipped">Missed</span>
                         </div>
                         <div class="divide-y divide-black/5">
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-skipped">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-light">Light</span>
                                     <span class="muscle-pill shrink-0 mt-0.5">Rear Delt</span>
@@ -431,7 +432,7 @@
                                 </div>
                                 <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">_</div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-skipped">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-light">Light</span>
                                     <span class="muscle-pill shrink-0 mt-0.5">Rear Delt</span>
@@ -445,7 +446,7 @@
                                 </div>
                                 <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">_</div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-skipped">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-light">Light</span>
                                     <span class="muscle-pill shrink-0 mt-0.5">Biceps</span>
@@ -459,7 +460,7 @@
                                 </div>
                                 <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">_</div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-skipped">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-light">Light</span>
                                     <span class="muscle-pill shrink-0 mt-0.5">Abs</span>
@@ -473,7 +474,7 @@
                                 </div>
                                 <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">85 kg</div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-skipped">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-light">Light</span>
                                     <span class="muscle-pill shrink-0 mt-0.5">Abs</span>
@@ -487,7 +488,7 @@
                                 </div>
                                 <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">_</div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-skipped">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-light">Light</span>
                                     <span class="muscle-pill shrink-0 mt-0.5">Obliques</span>
@@ -519,14 +520,14 @@
                         <span class="font-display font-semibold text-sm">Sunday</span>
                         <span class="mono-label text-th-charcoal/40 text-[10px]">24 May</span>
                     </div>
-                    <div class="glass-card rounded-xl p-4 md:p-5">
+                    <div class="glass-card rounded-xl p-4 md:p-5 missed">
                         <div class="flex items-center gap-2 mb-3 flex-wrap">
                             <span class="session-badge badge-rest">Legs_Combined</span>
                             <span class="mono-label text-th-charcoal/40">Home gym &middot; 75 min</span>
-                            
+                            <span class="session-badge badge-skipped">Missed</span>
                         </div>
                         <div class="divide-y divide-black/5">
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-skipped">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-large">Compound</span>
                                     <span class="muscle-pill shrink-0 mt-0.5">Quads</span>
@@ -540,7 +541,7 @@
                                 </div>
                                 <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">_</div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-skipped">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-medium">Med</span>
                                     <span class="muscle-pill shrink-0 mt-0.5">Glutes</span>
@@ -554,7 +555,7 @@
                                 </div>
                                 <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">85 kg</div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-skipped">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-medium">Med</span>
                                     <span class="muscle-pill shrink-0 mt-0.5">Hams</span>
@@ -568,7 +569,7 @@
                                 </div>
                                 <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">105 kg</div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-skipped">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-light">Light</span>
                                     <span class="muscle-pill shrink-0 mt-0.5">Hams</span>
@@ -582,7 +583,7 @@
                                 </div>
                                 <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">70 kg</div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-skipped">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-light">Light</span>
                                     <span class="muscle-pill shrink-0 mt-0.5">Calves</span>
@@ -596,7 +597,7 @@
                                 </div>
                                 <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">_</div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-skipped">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-light">Light</span>
                                     <span class="muscle-pill shrink-0 mt-0.5">Calves</span>
@@ -610,7 +611,7 @@
                                 </div>
                                 <div class="text-xs text-th-charcoal/40 font-mono mt-0.5">60 kg</div>
                             </div>
-                            <div class="exercise-row flex items-start gap-2 py-2">
+                            <div class="exercise-row flex items-start gap-2 py-2 ex-skipped">
                                 <div class="flex flex-col gap-1 shrink-0 mt-0.5">
                                     <span class="tier-pill tier-light">Light</span>
                                     <span class="muscle-pill shrink-0 mt-0.5">Calves</span>
