@@ -6,7 +6,8 @@ __pycache__/
 .env
 
 # Personal plan data — kept local, not published to the public repo.
-# Only the rendered docs/*.html (with scrubbed reasons) get pushed.
+# Only the rendered docs/*.html get pushed (these include day-level reasons,
+# e.g. missed-day notes — kept per user preference, so avoid sensitive text there).
 plan/*.yaml
 plan/logs/
 plan/rendered/

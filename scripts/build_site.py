@@ -448,9 +448,9 @@ def _render_training_day(entry: dict) -> str:
     log_badge = '<span class="session-badge badge-logged">Logged</span>' if log else ""
     if missed:
         log_badge = '<span class="session-badge badge-skipped">Missed</span>'
-    # Day-level missed reasons are personal (often health) — kept in plan/ only,
-    # never published to the public site. See .gitignore ("scrubbed reasons").
     missed_note = ""
+    if missed and entry.get("missed_reason"):
+        missed_note = f'<div class="text-xs text-th-charcoal/50 italic mb-2">{entry["missed_reason"]}</div>'
     tail_html = ""
     if entry.get("cardio_tail"):
         tail_html = f"""
