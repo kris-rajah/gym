@@ -451,6 +451,8 @@ def _render_training_day(entry: dict) -> str:
     missed_note = ""
     if missed and entry.get("missed_reason"):
         missed_note = f'<div class="text-xs text-th-charcoal/50 italic mb-2">{entry["missed_reason"]}</div>'
+    elif entry.get("reason_note"):
+        missed_note = f'<div class="text-xs text-th-charcoal/50 italic mb-2">{entry["reason_note"]}</div>'
     tail_html = ""
     if entry.get("cardio_tail"):
         tail_html = f"""
